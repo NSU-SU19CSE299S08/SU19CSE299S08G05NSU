@@ -1,1 +1,1 @@
-# CSE299: A Service for Book Finding
+# BookFinder: A Web App for Finding Books
