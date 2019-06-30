@@ -25,14 +25,14 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Register</h1>
-        <form action="#">
+        <form action="includes/registration.inc.php" method="POST">
           <div class="form-input">
-            <input type="text" placeholder="Enter Your Full Name" />
-            <input type="text" placeholder="Enter Your Username" />
-            <input type="email" placeholder="Enter Your Email" />
+            <input type="text" name="full_name" placeholder="Enter Your Full Name" />
+            <input type="text" name="uid" placeholder="Enter Your Username" />
+            <input type="email" name="email" placeholder="Enter Your Email" />
 
-            <input type="password" placeholder="Enter your Password" />
-            <input type="text" placeholder="Enter your Phone Number" />
+            <input type="password" name="pass" placeholder="Enter your Password" />
+            <input type="text" name="phone" placeholder="Enter your Phone Number" />
           </div>
 
           <input class="btn btn-outline-dark " type="submit" value="Register" />
