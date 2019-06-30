@@ -1,8 +1,3 @@
-
-<<<<<<< HEAD
-
-=======
->>>>>>> back-end-master
 <?php
 
 if(isset($_POST['submit'])){
@@ -23,14 +18,7 @@ if(isset($_POST['submit'])){
 
     }
 
-
-
-} else{
-<<<<<<< HEAD
-    //header("Location: ../registration.php");
-    echo "failed";
-=======
+}else{
     header("Location: ../registration.php");
->>>>>>> back-end-master
-    exit();
+	exit(); 
 }
