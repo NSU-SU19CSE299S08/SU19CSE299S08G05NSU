@@ -23,8 +23,6 @@ if(isset($_POST['submit'])){
             exit();
         }else{
             if (!preg_match("/^[a-zA-Z]*$/", $name)) {
-
-}else{
                 header("Location: ../registration.php?signup=invalid_Name");
                 exit();
             }else{
