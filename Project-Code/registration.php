@@ -35,7 +35,7 @@
             <input type="text" name="phone" placeholder="Enter your Phone Number" />
           </div>
 
-          <input class="btn btn-outline-dark " type="submit" value="Register" />
+          <input class="btn btn-outline-dark " type="submit" name="submit" value="Register" />
         </form>
       </div>
       <div class="form-footer">
