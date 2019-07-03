@@ -30,9 +30,8 @@
             <input type="text" name="full_name" placeholder="Enter Your Full Name" />
             <input type="text" name="uid" placeholder="Enter Your Username" />
             <input type="email" name="email" placeholder="Enter Your Email" />
-
-            <input type="password" name="pass" placeholder="Enter your Password" />
             <input type="text" name="phone" placeholder="Enter your Phone Number" />
+            <input type="password" name="pass" placeholder="Enter your Password" />
           </div>
 
           <input class="btn btn-outline-dark " type="submit" name="submit" value="Register" />
