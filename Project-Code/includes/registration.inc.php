@@ -26,6 +26,13 @@ if(isset($_POST['submit'])){
                 header("Location: ../registration.php?signup=invalid_Name");
                 exit();
             }else{
+                if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+                    header("Location: ../registration.php?signup=invalid_email");
+                    exit();
+                }
+                else{
+                    
+                }
 
             }
 
