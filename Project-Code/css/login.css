@@ -80,6 +80,7 @@ input[type='email'] {
 .main .email__label1 {
   margin-left: 53px;
   font-size: 13px;
+  visibility: hidden;
 }
 .main .pass__label1 {
   margin-left: 53px;

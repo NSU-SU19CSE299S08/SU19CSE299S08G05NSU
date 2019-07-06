@@ -21,18 +21,16 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/customJ.js"></script>
   </head>
   <body>
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Login</h1>
-        <form action="#">
+        <form action="#" onsubmit="loginValidation()">
           <div class="form-input">
-            <!-- <i class="fas fa-user"></i> -->
-            <input type="text" placeholder="Enter Your Username" />
-            <label for="" class="email__label1">Please Enter Your Mail..</label>
+            <i class="fas fa-user"></i>
+            <input type="text" id="uemail" placeholder="Enter Your Email" />
+            <label for="" class="email__label1"></label>
           </div>
           <div class="form-input">
             <!-- <i class="fas fa-lock"></i> -->
@@ -49,5 +47,7 @@
         <a href="registration.html">Create An Account.</a>
       </div>
     </div>
+
+    <script src="js/form-validation.js"></script>
   </body>
 </html>
