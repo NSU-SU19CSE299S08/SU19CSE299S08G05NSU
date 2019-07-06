@@ -59,14 +59,23 @@ input[type='email'] {
   display: block;
   padding: 7px 80px;
   margin: 4px auto;
-  border: 1px solid black;
   margin-top: 30px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid black;
+  background: none;
 }
 .main input[type='password'] {
   display: block;
   padding: 7px 80px;
   margin: 20px auto;
-  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid black;
+  background: none;
+  margin-bottom: 3px;
 }
 .main .email__label1 {
   margin-left: 53px;
@@ -80,7 +89,7 @@ input[type='email'] {
   display: block;
   margin: auto;
   padding: 7px 20px;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 .main input::placeholder {
   color: #37474f;
@@ -89,7 +98,7 @@ input[type='email'] {
 }
 .main .form-footer {
   text-align: center;
-  margin-top: 108px;
+  margin-top: 65px;
   background-color: #212121;
   padding: 16px 0;
 }
