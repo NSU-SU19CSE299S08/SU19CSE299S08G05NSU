@@ -77,12 +77,12 @@ input[type='email'] {
   background: none;
   margin-bottom: 3px;
 }
-.main .email__label1 {
+.main #email__label1 {
   margin-left: 53px;
   font-size: 13px;
   visibility: hidden;
 }
-.main .pass__label1 {
+.main #pass__label1 {
   margin-left: 53px;
   font-size: 13px;
 }
