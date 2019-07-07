@@ -1,6 +1,3 @@
-
-<<<<<<< HEAD
-=======
 <?php
 
 session_start();
@@ -19,4 +16,4 @@ else{
     header("Location:../login.php?login=error");
 exit();
 }
->>>>>>> newBranch
+

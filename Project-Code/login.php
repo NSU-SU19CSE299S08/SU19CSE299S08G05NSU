@@ -26,7 +26,6 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Login</h1>
-<<<<<<< HEAD:Project-Code/login.html
         <form action="#" onsubmit="return loginValidation();">
           <div class="form-input">
             <i class="fas fa-user"></i>
@@ -40,7 +39,6 @@
           </div>
           <div class="forgot__pass">
             <a href="#">Forgot Password?</a>
-=======
         <form action="includes/login.inc.php" method="POST">
           <div class="form-input">
             <i class="fas fa-user"></i>
@@ -50,7 +48,6 @@
           <div class="form-input">
             <i class="fas fa-lock"></i>
             <input type="password" name="pass" placeholder="Enter your Password" />
->>>>>>> newBranch:Project-Code/login.php
           </div>
 
           <input class="btn btn-outline-dark " type="submit" value="Enter" />
