@@ -19,15 +19,15 @@ function regValidation() {
       'Name can contain characters, space and dot(.)';
   }
   // username validation
-  if (fullNameRegx.test(uFullName)) {
-    document.getElementById('fullName__label1').style.visibility = 'hidden';
-    document.getElementById('fullName').style.border = '1px solid green';
+  if (userNameRegx.test(uUserName)) {
+    document.getElementById('userName__label1').style.visibility = 'hidden';
+    document.getElementById('uname').style.border = '1px solid green';
   } else {
-    document.getElementById('fullName__label1').style.visibility = 'visible';
-    document.getElementById('fullName__label1').style.color = 'red';
-    document.getElementById('fullName').style.border = '1px solid red';
-    document.getElementById('fullName__label1').innerHTML =
-      'Name can contain characters, space and dot(.)';
+    document.getElementById('userName__label1').style.visibility = 'visible';
+    document.getElementById('userName__label1').style.color = 'red';
+    document.getElementById('uname').style.border = '1px solid red';
+    document.getElementById('userName__label1').innerHTML =
+      'User Name can contain characters,number and underscore(_)';
   }
 
   // email validation
