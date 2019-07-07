@@ -51,8 +51,8 @@ if(isset($_POST['submit'])){
                     else{
                         // send data into the server
 
-                        $Sql = "INSERT INTO users(full_name, user_uid, user_email, user_phone,user_pass)
-                        VALUES('$name','$uid','$email','$phone','$pass')";
+                        $sql = "INSERT INTO users(full_name, user_uid, user_email, user_phone,user_pass)
+                        VALUES('$name','$uid','$email','$phone','$pass');";
                         mysqli_query($conn,$sql);
                         header("Location: ../registration.php?signup=success");
                          exit();
