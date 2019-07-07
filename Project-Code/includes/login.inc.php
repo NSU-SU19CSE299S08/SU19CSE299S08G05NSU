@@ -13,3 +13,7 @@ if(isset($_POST['submit'])){
     $uid = mysqli_real_escape_string($conn,$_POST['uid']);
     $uid = mysqli_real_escape_string($conn,$_POST['pass']);
 }
+else{
+    header("Location:../login.php?login=error");
+exit();
+}
