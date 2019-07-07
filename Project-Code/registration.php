@@ -18,8 +18,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/customJ.js"></script>
+    
   </head>
   <body>
     <div class="main">
@@ -28,12 +27,16 @@
         <form action="includes/registration.inc.php" method="POST">
           <div class="form-input">
             <input type="text" name="full_name" placeholder="Enter Your Full Name" />
-            <input type="text" name="uid" placeholder="Enter Your Username" />
+          </div>
+          <div class="form-input">
+          <input type="text" name="uid" placeholder="Enter Your Username" />
+          </div>
+            <div class="form-input">
             <input type="email" name="email" placeholder="Enter Your Email" />
+            </div>
 
             <input type="password" name="pass" placeholder="Enter your Password" />
             <input type="text" name="phone" placeholder="Enter your Phone Number" />
-          </div>
 
           <input class="btn btn-outline-dark " type="submit" name="submit" value="Register" />
         </form>

@@ -34,12 +34,12 @@ body {
 
 .main .form-input .fas {
   position: absolute;
-  top: 32.5%;
+  top: 31.5%;
   left: 20%;
 }
 .main .form-input .fa-lock {
   position: absolute;
-  top: 49%;
+  top: 47.5%;
   left: 20%;
 }
 /* .main input[type='text'],
@@ -80,6 +80,16 @@ input[type='email'] {
 .main #pass__label1 {
   margin-left: 53px;
   font-size: 13px;
+}
+.forgot__pass a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-left: 53px;
+  border-bottom: 1px solid rgb(18, 168, 161);
+  padding-bottom: 2px;
+  font-size: 13px;
+  font-weight: 600;
 }
 .main input[type='submit'] {
   display: block;
