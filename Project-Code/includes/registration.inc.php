@@ -7,8 +7,9 @@ if(isset($_POST['submit'])){
     $name = mysqli_real_escape_string($conn,$_POST['full_name']);
     $uid = mysqli_real_escape_string($conn,$_POST['uid']);
     $email = mysqli_real_escape_string($conn,$_POST['email']);
-    $pass = mysqli_real_escape_string($conn,$_POST['pass']);
     $phone = mysqli_real_escape_string($conn,$_POST['phone']);
+    $pass = mysqli_real_escape_string($conn,$_POST['pass']);
+    
 
     $sql = "SELECT * FROM users WHERE user_uid = '$uid'";
     $result=mysqli_query($conn,$sql);
@@ -31,6 +32,17 @@ if(isset($_POST['submit'])){
                     exit();
                 }
                 else{
+                    if(!is_numeric($phone)){
+                        header("Location: ../registration.php?signup=invalid_phoneNo");
+                        exit(); 
+                    }
+                    else{
+                        $Sql = "INSERT INTO users(name, user_id, user_email, user_phone,user_pass)
+                        VALUES('$name','$uid','$email','$phone','$pass')";
+                        mysqli_query($conn,$sql);
+                        header("Location: ../success.php?signup=success");
+                         exit();
+                    }
                     
                 }
 
