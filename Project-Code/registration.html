@@ -23,11 +23,7 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Register</h1>
-        <form
-          action="includes/registration.inc.php"
-          method="POST"
-          onsubmit="regValidation()"
-        >
+        <form action="#" onsubmit="return regValidation();">
           <div class="form-input1">
             <input
               type="text"
@@ -49,7 +45,7 @@
           <div class="form-input3">
             <input
               type="text"
-              class="uemail"
+              id="uemail"
               name="email"
               placeholder="Enter Your Email"
             />
@@ -87,5 +83,6 @@
         <a href="login.html">Login With An Existing Account.</a>
       </div>
     </div>
+    <script src="js/form-validation.js"></script>
   </body>
 </html>

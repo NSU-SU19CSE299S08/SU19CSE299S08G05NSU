@@ -6,12 +6,9 @@ function regValidation() {
   if (emailRegx.test(uemail)) {
     document.getElementById('email__label1').style.visibility = 'visible';
     document.getElementById('email__label1').innerHTML = 'valid';
-
     console.log('was submitted');
   } else {
     document.getElementById('email__label1').style.visibility = 'visible';
     document.getElementById('email__label1').innerHTML = 'invalid';
-
-    console.log('Was not submitted');
   }
 }
