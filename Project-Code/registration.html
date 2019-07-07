@@ -23,7 +23,11 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Register</h1>
-        <form action="includes/registration.inc.php" method="POST">
+        <form
+          action="includes/registration.inc.php"
+          method="POST"
+          onsubmit="regValidation()"
+        >
           <div class="form-input1">
             <input
               type="text"
@@ -44,7 +48,7 @@
           </div>
           <div class="form-input3">
             <input
-              type="email"
+              type="text"
               class="uemail"
               name="email"
               placeholder="Enter Your Email"
