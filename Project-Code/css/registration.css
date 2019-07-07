@@ -76,7 +76,7 @@ input[type='email'] {
 }
 
 .main form label {
-  margin-left: 55gpx;
+  margin-left: 55px;
   visibility: visible;
 }
 .main input[type='submit'] {
