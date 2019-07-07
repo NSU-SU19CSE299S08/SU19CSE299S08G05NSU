@@ -1,9 +1,9 @@
 function regValidation() {
   var uemail = document.getElementById('uemail').value;
 
-  var regx = /^([a-zA-Z\.\-_0-9]+)@([a-zA-Z]+).([a-zA-Z\.]{2,})$/;
+  var emailRegx = /^([a-zA-Z\.\-_0-9]+)@([a-zA-Z]+).([a-zA-Z\.]{2,})$/;
 
-  if (regx.test(uemail)) {
+  if (emailRegx.test(uemail)) {
     document.getElementById('email__label1').style.visibility = 'visible';
     document.getElementById('email__label1').innerHTML = 'valid';
 
