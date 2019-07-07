@@ -39,6 +39,15 @@
           </div>
           <div class="forgot__pass">
             <a href="#">Forgot Password?</a>
+        <form action="includes/login.inc.php" method="POST">
+          <div class="form-input">
+            <i class="fas fa-user"></i>
+            <input type="text" name="uid" placeholder="Enter Your Username" />
+            <!-- <input type="email" placeholder="Enter Your Email"> -->
+          </div>
+          <div class="form-input">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="pass" placeholder="Enter your Password" />
           </div>
 
           <input class="btn btn-outline-dark " type="submit" value="Enter" />
