@@ -3,6 +3,6 @@
 $dbServername="localhost";
 $dbUsername="root";
 $dbPassword="";
-$dbName="BookFinder";
+$dbName="bookfinder";
 
 $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName) or die("Unable to connect");
