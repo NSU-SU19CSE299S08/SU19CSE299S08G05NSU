@@ -1,7 +1,13 @@
 function regValidation() {
   var userEmail = document.getElementById('uemail').value;
+  var uFullName = document.getElementById('fullName').value;
 
+  var fullNameRegx = /^[a-zA-Z \.]{3,}$/;
   var emailRegx = /^([a-zA-Z\.\-_0-9]+)@([a-zA-Z]+).([a-zA-Z\.]{2,})$/;
+  // full name validation
+
+  if (fullNameRegx.test(uFullName)) {
+  }
 
   if (emailRegx.test(userEmail)) {
     document.getElementById('email__label1').style.visibility = 'hidden';
@@ -18,9 +24,4 @@ function regValidation() {
     return false;
     console.log('was not submitted');
   }
-  input.addEventListener('#uemail', function() {
-    if (userEmail == '') {
-      document.getElementById('uemail').style.border = '1px solid black';
-    }
-  });
 }
