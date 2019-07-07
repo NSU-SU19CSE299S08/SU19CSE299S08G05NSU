@@ -29,15 +29,15 @@
     <div class="main">
       <div class="loginForm"> 
         <h1 class="text-center text-dark">Login</h1>
-        <form action="#">
+        <form action="includes/login.inc.php" method="POST">
           <div class="form-input">
             <i class="fas fa-user"></i>
-            <input type="text" placeholder="Enter Your Username" />
+            <input type="text" name="uid" placeholder="Enter Your Username" />
             <!-- <input type="email" placeholder="Enter Your Email"> -->
           </div>
           <div class="form-input">
             <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Enter your Password" />
+            <input type="password" name="pass" placeholder="Enter your Password" />
           </div>
 
           <input class="btn btn-outline-dark " type="submit" value="Enter" />
