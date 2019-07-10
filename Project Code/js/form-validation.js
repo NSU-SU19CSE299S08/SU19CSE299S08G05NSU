@@ -38,15 +38,14 @@ function regValidation() {
     document.getElementById('email__label1').style.color = 'green';
     document.getElementById('uemail').style.border = '1px solid green';
     document.getElementById('email__label1').innerHTML = 'valid';
-    return false;
+
     console.log('was submitted');
   } else {
     document.getElementById('email__label1').style.visibility = 'visible';
     document.getElementById('email__label1').style.color = 'red';
     document.getElementById('uemail').style.border = '1px solid red';
-    document.getElementById('email__label1').innerHTML = 'invalid';
-    return false;
-    console.log('was not submitted');
+    document.getElementById('email__label1').innerHTML =
+      'Enter a valid email address. e.g. "something@example.com"';
   }
 
   //Phone number Validation
@@ -55,15 +54,15 @@ function regValidation() {
     document.getElementById('uphone__label1').style.color = 'green';
     document.getElementById('uphone').style.border = '1px solid green';
     document.getElementById('uphone__label1').innerHTML = 'valid';
-    return false;
+
     console.log('was submitted');
   } else {
     document.getElementById('uphone__label1').style.visibility = 'visible';
     document.getElementById('uphone__label1').style.color = 'red';
     document.getElementById('uphone').style.border = '1px solid red';
     document.getElementById('uphone__label1').innerHTML =
-      'Enter a valid phone number. Phone number can contain only NUMBERS(0-9)';
-    return false;
+      'Enter a valid phone number. Phone number can contain only NUMBERS  (0-9)';
+
     console.log('was not submitted');
   }
 }
