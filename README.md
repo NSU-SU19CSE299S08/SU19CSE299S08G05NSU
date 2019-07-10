@@ -15,7 +15,7 @@
     <br/>
     <p align='center'><b>Semester: </b>Summer 2019</p>
     <br/>
-    <p align='center'><b>Faculty Name: </b>Shaikh Shawon Arefin Shimon</p>
+    <p align='center'><b>Faculty Name: </b>Shaikh Shawon Arefin Shimon</p>  
 
 </p>
 <br/>
