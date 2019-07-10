@@ -20,15 +20,18 @@
 </p>
 <br/>
 <br/>
+<hr/>
+<br/>
 
-<p align='center'><b>Students Name: </b></p>
+<h2 align='center'>Students Name: </h2>
 <p align='center'><b>Name: </b> Md. Abu Nasib</p>
 <p align='center'><b>ID: </b> 1610719042</p>
 <p align='center'><b>Name: </b> Nayeem M. Muzahid</p>
 <p align='center'><b>ID: </b> 1612712042</p>
 
 <br/>
-<table align='center' border='1px solid black'>
+
+<!-- <table align='center' border='1px solid black'>
     <tbody align='center' >
         <tr align='center'>
             <td align='center'>Md. Abu Nasib</td>
@@ -41,7 +44,7 @@
             <td align='center'>Nayeem.muzahid@northsouth.edu</td>
         </tr>
     </tbody>
-</table>
+</table> -->
 <br>
 <p align='center'><b>Git repository link: </b></p>
 
