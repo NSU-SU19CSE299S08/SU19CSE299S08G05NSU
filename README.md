@@ -18,3 +18,24 @@
     <p align='center'><b>Faculty Name: </b>Shaikh Shawon Arefin Shimon</p>
 
 </p>
+<br/>
+<br/>
+
+<table align='center' border='1px solid black'>
+    <tbody>
+        <tr>
+            <td align="left">Md. Abu Nasib</td>
+            <td align="center">1610719042</td>
+            <td align="right">Abu.nasib@northsouth.edu</td>
+        </tr>
+        <tr>
+            <td align="left">Nayeem M. Muzahid</td>
+            <td align="center">1612712042</td>
+            <td align="right">Nayeem.muzahid@northsouth.edu</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<p align='center'><b>Git repository link: </b></p>
+
+<p align='center'><a  href='https://github.com/Nym02/SU19CSE299S08G05NSU'>https://github.com/Nym02/SU19CSE299S08G05NSU</a></p>
