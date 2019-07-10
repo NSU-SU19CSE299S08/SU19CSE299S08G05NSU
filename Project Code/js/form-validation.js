@@ -2,10 +2,12 @@ function regValidation() {
   var uFullName = document.getElementById('fullName').value;
   var uUserName = document.getElementById('uname').value;
   var userEmail = document.getElementById('uemail').value;
+  var userPhoneNum = document.getElementById('uphone').value;
 
   var fullNameRegx = /^[a-zA-Z \.]{3,}$/;
   var userNameRegx = /^[a-z0-9_]{4,}$/;
   var emailRegx = /^([a-zA-Z\.\-_0-9]+)@([a-zA-Z]+).([a-zA-Z\.]{2,})$/;
+  var phoneNumRegx = /^[0-9]{6,}$/;
   // full name validation
 
   if (fullNameRegx.test(uFullName)) {
@@ -46,4 +48,6 @@ function regValidation() {
     return false;
     console.log('was not submitted');
   }
+
+  //Phone number Validation
 }
