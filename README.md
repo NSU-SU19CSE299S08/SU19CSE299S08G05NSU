@@ -23,15 +23,15 @@
 
 <table align='center' border='1px solid black'>
     <tbody align='center'>
-        <tr>
-            <td >Md. Abu Nasib</td>
-            <td >1610719042</td>
-            <td >Abu.nasib@northsouth.edu</td>
+        <tr align='center'>
+            <td align='center'>Md. Abu Nasib</td>
+            <td align='center'>1610719042</td>
+            <td align='center'>Abu.nasib@northsouth.edu</td>
         </tr>
-        <tr>
-            <td >Nayeem M. Muzahid</td>
-            <td >1612712042</td>
-            <td >Nayeem.muzahid@northsouth.edu</td>
+        <tr align='center'>
+            <td align='center'>Nayeem M. Muzahid</td>
+            <td align='center'>1612712042</td>
+            <td align='center'>Nayeem.muzahid@northsouth.edu</td>
         </tr>
     </tbody>
 </table>
