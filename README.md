@@ -23,7 +23,7 @@
 <hr/>
 <br/>
 
-<h2 align='center'>Students Name: </h2>
+<p align='center'><b>Students Name: </b></p>
 <p align='center'><b>Name: </b> Md. Abu Nasib</p>
 <p align='center'><b>ID: </b> 1610719042</p>
 <p align='center'><b>Name: </b> Nayeem M. Muzahid</p>
