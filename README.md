@@ -39,3 +39,13 @@
 <p align='center'><b>Git repository link: </b></p>
 
 <p align='center'><a  href='https://github.com/Nym02/SU19CSE299S08G05NSU'>https://github.com/Nym02/SU19CSE299S08G05NSU</a></p>
+
+<br/>
+<br/>
+<p align='center'><b>Date Prepared:</b></p>
+<p align='center'>15-June-2019</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr/>
