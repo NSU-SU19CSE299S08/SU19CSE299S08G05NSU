@@ -2,7 +2,7 @@ function regValidation() {
   var uFullName = document.getElementById('fullName').value;
   var uUserName = document.getElementById('uname').value;
   var userEmail = document.getElementById('uemail').value;
-  var userPhoneNum = document.getElementById('uphone').value;
+  var userPhoneNumber = document.getElementById('uphone').value;
 
   var fullNameRegx = /^[a-zA-Z \.]{3,}$/;
   var userNameRegx = /^[a-z0-9_]{4,}$/;
@@ -50,4 +50,20 @@ function regValidation() {
   }
 
   //Phone number Validation
+  if (phoneNumRegx.test(userPhoneNumber)) {
+    document.getElementById('uphone__label1').style.visibility = 'hidden';
+    document.getElementById('uphone__label1').style.color = 'green';
+    document.getElementById('uphone').style.border = '1px solid green';
+    document.getElementById('uphone__label1').innerHTML = 'valid';
+    return false;
+    console.log('was submitted');
+  } else {
+    document.getElementById('uphone__label1').style.visibility = 'visible';
+    document.getElementById('uphone__label1').style.color = 'red';
+    document.getElementById('uphone').style.border = '1px solid red';
+    document.getElementById('uphone__label1').innerHTML =
+      'Enter a valid phone number. Phone number can contain only NUMBERS(0-9)';
+    return false;
+    console.log('was not submitted');
+  }
 }
