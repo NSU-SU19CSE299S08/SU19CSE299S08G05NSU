@@ -2,12 +2,15 @@ function regValidation() {
   var uFullName = document.getElementById('fullName').value;
   var uUserName = document.getElementById('uname').value;
   var userEmail = document.getElementById('uemail').value;
+  var userPassword = document.getElementById('upass').value;
   var userPhoneNumber = document.getElementById('uphone').value;
 
   var fullNameRegx = /^[a-zA-Z \.]{3,}$/;
   var userNameRegx = /^[a-z0-9_]{4,}$/;
   var emailRegx = /^([a-zA-Z\.\-_0-9]+)@([a-zA-Z]+).([a-zA-Z\.]{2,})$/;
+  var passwordRegx = /^[0-9a-zA-Z\.\-_$%&*#@!]{8,32}$/;
   var phoneNumRegx = /^[0-9]{6,}$/;
+
   // full name validation
 
   if (fullNameRegx.test(uFullName)) {
@@ -19,6 +22,7 @@ function regValidation() {
     document.getElementById('fullName').style.border = '1px solid red';
     document.getElementById('fullName__label1').innerHTML =
       'Name can contain characters, space and dot(.)';
+    return false;
   }
   // username validation
   if (userNameRegx.test(uUserName)) {
@@ -30,6 +34,7 @@ function regValidation() {
     document.getElementById('uname').style.border = '1px solid red';
     document.getElementById('userName__label1').innerHTML =
       'User Name can contain characters,number and underscore(_)';
+    return false;
   }
 
   // email validation
@@ -46,8 +51,21 @@ function regValidation() {
     document.getElementById('uemail').style.border = '1px solid red';
     document.getElementById('email__label1').innerHTML =
       'Enter a valid email address. e.g. "something@example.com"';
+    return false;
   }
+  //Password Validation
 
+  if (passwordRegx.test(userPassword)) {
+    document.getElementById('upass__label1').style.visibility = 'hidden';
+    document.getElementById('upass').style.border = '1px solid green';
+  } else {
+    document.getElementById('upass__label1').style.visibility = 'visible';
+    document.getElementById('upass__label1').style.color = 'red';
+    document.getElementById('upass').style.border = '1px solid red';
+    document.getElementById('upass__label1').innerHTML =
+      'Password must contain at least 8 character and can contain (0-9a-zA-Z.-_$%&*#@!)';
+    return false;
+  }
   //Phone number Validation
   if (phoneNumRegx.test(userPhoneNumber)) {
     document.getElementById('uphone__label1').style.visibility = 'hidden';
@@ -62,7 +80,6 @@ function regValidation() {
     document.getElementById('uphone').style.border = '1px solid red';
     document.getElementById('uphone__label1').innerHTML =
       'Enter a valid phone number. Phone number can contain only NUMBERS  (0-9)';
-
-    console.log('was not submitted');
+    return false;
   }
 }

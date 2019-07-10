@@ -16,7 +16,7 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Register</h1>
-        <form action="#" onsubmit="regValidation()">
+        <form action="#" onsubmit="return regValidation();">
           <div class="form-input1">
             <input
               type="text"
@@ -38,10 +38,10 @@
           <div class="form-input4">
             <input
               type="password"
-              class="upass"
+              id="upass"
               placeholder="Enter your Password"
             />
-            <label></label>
+            <label id="upass__label1"></label>
           </div>
           <div class="form-input5">
             <input
