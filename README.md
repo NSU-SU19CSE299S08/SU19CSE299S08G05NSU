@@ -22,16 +22,16 @@
 <br/>
 
 <table align='center' border='1px solid black'>
-    <tbody>
+    <tbody align='center'>
         <tr>
-            <td align="left">Md. Abu Nasib</td>
-            <td align="center">1610719042</td>
-            <td align="right">Abu.nasib@northsouth.edu</td>
+            <td >Md. Abu Nasib</td>
+            <td >1610719042</td>
+            <td >Abu.nasib@northsouth.edu</td>
         </tr>
         <tr>
-            <td align="left">Nayeem M. Muzahid</td>
-            <td align="center">1612712042</td>
-            <td align="right">Nayeem.muzahid@northsouth.edu</td>
+            <td >Nayeem M. Muzahid</td>
+            <td >1612712042</td>
+            <td >Nayeem.muzahid@northsouth.edu</td>
         </tr>
     </tbody>
 </table>
