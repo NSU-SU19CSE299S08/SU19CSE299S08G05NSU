@@ -20,7 +20,7 @@
 </p>
 <br/>
 <br/>
-<hr/>
+
 <br/>
 
 <p align='center'><b>Students Name: </b></p>
