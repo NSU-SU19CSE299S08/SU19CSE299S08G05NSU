@@ -47,7 +47,7 @@
 <hr/>
 <br/>
 
-<h3>1. Introduction</h3>
+<h2>1. Introduction</h2>
         <h3>Purpose: </h3>
         <p align='justify'>The purpose of the document is to give a detailed description of the requirements for our project called “A service for Book Finding”. It will demonstrate the purpose and complete declaration for the development of the system. The main purpose of this is to help all the people who want to find a particular book in the nearest area.</p>
 
@@ -61,7 +61,7 @@ b) How would your product solve the problem?
     We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
 </pre>
 
-<h3><b>Features : </b></h3>
+<h2><b>Features : </b></h2>
 
 <p align='justify'><b>Sign up : </b>Users need to sign up to use the website or application. The users should have a username and password. After filling their name, surname, email, age, phone and gender information, they will be registered to the system.</p>
 <p align='justify'><b>Sign In/out : </b>If a user completes sign up procedure, s/he can sign in the system by filling username and password boxes. A user may need to sign out from the system. S/he can do it by clicking the sign out button.</p>
@@ -72,4 +72,7 @@ b) How would your product solve the problem?
 <p align='justify'><b>List of all books : </b>This will show organized books with the name of author, publications, and price.</p>
 <p align='justify'><b>Shop Location : </b>If anybody searches any book, this website will show the nearest location of the shops on the Google map.</p>
 
-<h3><b>Special Event Features : </b></h3>
+<h2><b>Special Event Features : </b></h2>
+
+<p align='justify'><b>List of Stall : </b>Website will have the list of all new stall during the book fair.</p>
+<p align='justify'><b>New Books : </b>Website will publish all the details of the new books.</p>
