@@ -31,20 +31,6 @@
 
 <br/>
 
-<!-- <table align='center' border='1px solid black'>
-    <tbody align='center' >
-        <tr align='center'>
-            <td align='center'>Md. Abu Nasib</td>
-            <td align='center'>1610719042</td>
-            <td align='center'>Abu.nasib@northsouth.edu</td>
-        </tr>
-        <tr align='center'>
-            <td align='center'>Nayeem M. Muzahid</td>
-            <td align='center'>1612712042</td>
-            <td align='center'>Nayeem.muzahid@northsouth.edu</td>
-        </tr>
-    </tbody>
-</table> -->
 <br>
 <p align='center'><b>Git repository link: </b></p>
 
@@ -59,3 +45,7 @@
 <br/>
 <br/>
 <hr/>
+<br/>
+
+<h3>1. Introduction</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         &nbsp;Purpose: </h3>
