@@ -58,6 +58,9 @@
 <pre align='justify'>
 b) How would your product solve the problem?
 
-    We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.</pre>
+    We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
+</pre>
 
-<h3>Features:</h3>
+<h3><b>Features : </b></h3>
+
+<p align='justify'><b>Sign up : </b>Users need to sign up to use the website or application. The users should have a username and password. After filling their name, surname, email, age, phone and gender information, they will be registered to the system.</p>
