@@ -64,3 +64,8 @@ b) How would your product solve the problem?
 <h3><b>Features : </b></h3>
 
 <p align='justify'><b>Sign up : </b>Users need to sign up to use the website or application. The users should have a username and password. After filling their name, surname, email, age, phone and gender information, they will be registered to the system.</p>
+<p align='justify'><b>Sign In/out : </b>If a user completes sign up procedure, s/he can sign in the system by filling username and password boxes. A user may need to sign out from the system. S/he can do it by clicking the sign out button.</p>
+<p align='justify'><b>Searching : </b>Searching is an important feature of this application. User will be able to search book to find its nearest location.</p>
+<p align='justify'><b>List of Publishers : </b>This website will also contain the list of all book publishers in the market.</p>
+<p align='justify'><b>Insert/Delete/Update Information : </b>Shop owner will be able update their shop information.</p>
+<p align='justify'><b>Sign up : </b>Users need to sign up to use the website or application. The users should have a username and password. After filling their name, surname, email, age, phone and gender information, they will be registered to the system.</p>
