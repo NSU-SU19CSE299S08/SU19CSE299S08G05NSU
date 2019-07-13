@@ -15,7 +15,7 @@
     <br/>
     <p align='center'><b>Semester: </b>Summer 2019</p>
     <br/>
-    <p align='center'><b>Faculty Name: </b>Shaikh Shawon Arefin Shimon</p>  
+    <p align='center'><b>Faculty Name: </b>Shaikh Shawon Arefin Shimon</p>
 
 </p>
 <br/>
@@ -51,15 +51,16 @@
         <h3>Purpose: </h3>
         <p align='justify'>The purpose of the document is to give a detailed description of the requirements for our project called “A service for Book Finding”. It will demonstrate the purpose and complete declaration for the development of the system. The main purpose of this is to help all the people who want to find a particular book in the nearest area.</p>
 
-<pre align='justify'> a) What problem are you trying to solve?
+<p align='justify'><b> a) What problem are you trying to solve?</b>
 
-    Sometimes people gets confused about finding a particular book in the market. They do not know which shop to sell this particular book. So, on this website, people will be able to find a particular book in his/her nearest area.</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sometimes people gets confused about finding a particular book in the market. They do not know which shop to sell this particular book. So, on this website, people will be able to find a particular book in his/her nearest area.</p>
 
-<pre align='justify'>
-b) How would your product solve the problem?
+<p align='justify'><b>
+b) How would your product solve the problem?</b>
 
-    We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
-</pre>
+We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
+
+</p>
 
 <h2><b>Features : </b></h2>
 
