@@ -53,7 +53,7 @@
 
 <p align='justify'><b> a) What problem are you trying to solve?</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sometimes people gets confused about finding a particular book in the market. They do not know which shop to sell this particular book. So, on this website, people will be able to find a particular book in his/her nearest area.</p>
+Sometimes people gets confused about finding a particular book in the market. They do not know which shop to sell this particular book. So, on this website, people will be able to find a particular book in his/her nearest area.</p>
 
 <p align='justify'><b>
 b) How would your product solve the problem?</b>
