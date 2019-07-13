@@ -17,10 +17,15 @@ body {
   transform: translate(-50%, -50%);
 }
 .form__left {
-  width: 30%;
+  padding-left: 50px;
 }
 .form-right {
 }
 .form-group input {
-  padding: 10px 50px;
+  padding: 10px 5px;
+}
+.imagePreview img {
+  width: 241px;
+  height: 241px;
+  border-radius: 50%;
 }
