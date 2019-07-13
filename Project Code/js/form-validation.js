@@ -83,3 +83,27 @@ function regValidation() {
     return false;
   }
 }
+
+//Book entry form validation
+
+function bookEntryForm() {
+  var isbn = document.getElementById('isbnNumber').value;
+
+  var isbnRegx = /^[0-9]{1,}$/;
+
+  if (isbnRegx.test(isbn)) {
+    document.getElementById('isbnLabel').style.visibility = 'hidden';
+    document.getElementById('isbnLabel').style.color = 'green';
+    document.getElementById('isbnNumber').style.border = '1px solid green';
+    document.getElementById('isbnLabel').innerHTML = 'valid';
+
+    console.log('was submitted');
+  } else {
+    document.getElementById('isbnLabel').style.visibility = 'visible';
+    document.getElementById('isbnLabel').style.color = 'red';
+    document.getElementById('isbnNumber').style.border = '1px solid red';
+    document.getElementById('isbnLabel').innerHTML =
+      'Enter a valid ISBN number. ISBN number can contain only NUMBERS  (0-9)';
+    return false;
+  }
+}
