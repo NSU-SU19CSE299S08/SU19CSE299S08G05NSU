@@ -85,3 +85,12 @@ We are trying to develop a website where people will get information about books
 - Javascript
 - PHP
 - Xampp or Ampps
+
+<h2><b>Monetization Strategy:</b></h2>
+
+- <p align='justify'><b>Advertising : </b>    If we start to have more traffic on the website, we can advertise other product on this website. Advertising may be a great way to monetize.</p>
+
+- <p align='justify'><b>Subscription : </b> Subscription models work because they continually bill people until they decide to stop the subscription. Chegg.com is an example of a very popular subscription-based web app.</p>
+
+
+    Initially, the main purpose of this website is to serve our country’s people only, so we will use those payment systems which are mostly available in our country. Such as- bKASH, rocket, uCash and Credit Card. If any foreigner wants to subscribe to this service, s/he can contact to this website’s admin panel to get help. But, in the beginning, it will be free for everyone.
