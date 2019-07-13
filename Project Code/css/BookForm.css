@@ -25,7 +25,11 @@ body {
   padding: 10px 5px;
 }
 .imagePreview img {
-  width: 241px;
-  height: 241px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+}
+
+.formSection label {
+  visibility: hidden;
 }

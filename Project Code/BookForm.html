@@ -41,6 +41,7 @@
                 id="publisherName"
                 placeholder="Publisher's Name"
               />
+              <label id="publisherNameLabel"></label>
             </div>
             <div class="form-group">
               <input
@@ -49,6 +50,7 @@
                 id="isbnNumber"
                 placeholder="ISBN Number"
               />
+              <label for="" id="isbnLabel"></label>
             </div>
             <div class="form-group">
               <input
@@ -57,6 +59,7 @@
                 id="bookPrice"
                 placeholder="Book's Price"
               />
+              <label id="bookPriceLabel"></label>
             </div>
           </div>
           <div class="form__left col-md-6">
@@ -67,15 +70,22 @@
                 id="bookLanguage"
                 placeholder="Book's Language"
               />
+              <label id="bookLanguageLabel"></label>
             </div>
             <div class="form-group">
-              <input type="file" class="form-control-file" id="fileUpload" />
+              <input
+                type="file"
+                class="form-control-file"
+                id="fileUpload"
+                onchange="readURL(this);"
+              />
             </div>
             <div class="imagePreview">
-              <img src="img/Humayun Ahmed/joshnaOjononirGolpo.jpg" alt="" />
+              <img src="" alt="" id="blah" />
             </div>
           </div>
         </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
       </form>
     </div>
     <script src="js/jquery.js"></script>
