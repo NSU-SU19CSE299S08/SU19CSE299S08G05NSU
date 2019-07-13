@@ -77,3 +77,5 @@ We are trying to develop a website where people will get information about books
 
 <p align='justify'><b>List of Stall : </b>Website will have the list of all new stall during the book fair.</p>
 <p align='justify'><b>New Books : </b>Website will publish all the details of the new books.</p>
+
+<p><b>Technology: </b></p>
