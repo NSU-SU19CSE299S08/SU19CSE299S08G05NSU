@@ -26,7 +26,7 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Login</h1>
-        <form action="#" onsubmit="return regValidation();">
+        <form action="includes/login.inc.php" method=" POST" onsubmit="return regValidation();">
           <div class="form-input">
             <i class="fas fa-user"></i>
             <input type="text" id="uemail" placeholder="Enter Your Email" />
