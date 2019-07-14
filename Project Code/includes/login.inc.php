@@ -25,7 +25,14 @@ if(isset($_POST['submit'])){
             header("Location:../login.php?login=error");
 			exit();
         }else{
-            
+
+            if($row=mysqli_fetch_assoc($result)){
+
+                if($pass != $row['user_pass']){
+                    header("Location:../login.php?login=wrong_password");
+					exit();
+                }
+            }
         }
     }
 }
