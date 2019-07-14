@@ -26,7 +26,7 @@
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Login</h1>
-        <form action="#" onsubmit="return regValidation();">
+        <form action="includes/login.inc.php" method=" POST" onsubmit="return regValidation();">
           <div class="form-input">
             <i class="fas fa-user"></i>
             <input type="text" id="uemail" placeholder="Enter Your Email" />
@@ -39,19 +39,6 @@
           </div>
           <div class="forgot__pass">
             <a href="#">Forgot Password?</a>
-        <form action="includes/login.inc.php" method="POST">
-          <div class="form-input">
-            <i class="fas fa-user"></i>
-            <input type="text" name="uid" placeholder="Enter Your Username" />
-            <!-- <input type="email" placeholder="Enter Your Email"> -->
-          </div>
-          <div class="form-input">
-            <i class="fas fa-lock"></i>
-            <input type="password" name="pass" placeholder="Enter your Password" />
-          </div>
-
-          <input class="btn btn-outline-dark " type="submit" value="Enter" />
-        </form>
       </div>
       <div class="form-footer">
         <a href="registration.html">Create An Account.</a>
