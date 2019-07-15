@@ -93,4 +93,4 @@ We are trying to develop a website where people will get information about books
 - <p align='justify'><b>Subscription : </b> Subscription models work because they continually bill people until they decide to stop the subscription. Chegg.com is an example of a very popular subscription-based web app.</p>
 
 
-    Initially, the main purpose of this website is to serve our country’s people only, so we will use those payment systems which are mostly available in our country. Such as- bKASH, rocket, uCash and Credit Card. If any foreigner wants to subscribe to this service, s/he can contact to this website’s admin panel to get help. But, in the beginning, it will be free for everyone.
+    <p align='justify'>Initially, the main purpose of this website is to serve our country’s people only, so we will use those payment systems which are mostly available in our country. Such as- bKASH, rocket, uCash and Credit Card. If any foreigner wants to subscribe to this service, s/he can contact to this website’s admin panel to get help. But, in the beginning, it will be free for everyone.</p>
