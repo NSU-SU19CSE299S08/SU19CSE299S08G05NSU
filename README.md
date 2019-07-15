@@ -56,9 +56,9 @@
 Sometimes people gets confused about finding a particular book in the market. They do not know which shop to sell this particular book. So, on this website, people will be able to find a particular book in his/her nearest area.</p>
 
 <p align='justify'><b>
-b) How would your product solve the problem?</b>
+b) How would your product solve the problem?</b></p>
 
-We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
+<p align='justify'>We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
 
 </p>
 
