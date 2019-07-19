@@ -1,8 +1,13 @@
 <?php
 
-$dbServername="localhost";
-$dbUsername="root";
-$dbPassword="";
-$dbName="bookfinder";
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "bookfinder";
 
-$conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName) or die("Unable to connect");
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName) or die("Unable to connect");
+
+
+if ($conn) {
+    echo 'Connected';
+}
