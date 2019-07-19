@@ -56,9 +56,9 @@
 Sometimes people gets confused about finding a particular book in the market. They do not know which shop to sell this particular book. So, on this website, people will be able to find a particular book in his/her nearest area.</p>
 
 <p align='justify'><b>
-b) How would your product solve the problem?</b>
+b) How would your product solve the problem?</b></p>
 
-We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
+<p align='justify'>We are trying to develop a website where people will get information about books and its shop location. We will list all the books and their publishers name on this website. When someone searches for a particular book, the person will get location of the nearest shop on the map where s/he can find the book. The website will also contain the information about the price, author and type of the book. For special event like Book Fair, this website will open a BoiMela portal to help all the users of this website.
 
 </p>
 
@@ -93,4 +93,4 @@ We are trying to develop a website where people will get information about books
 - <p align='justify'><b>Subscription : </b> Subscription models work because they continually bill people until they decide to stop the subscription. Chegg.com is an example of a very popular subscription-based web app.</p>
 
 
-    Initially, the main purpose of this website is to serve our country’s people only, so we will use those payment systems which are mostly available in our country. Such as- bKASH, rocket, uCash and Credit Card. If any foreigner wants to subscribe to this service, s/he can contact to this website’s admin panel to get help. But, in the beginning, it will be free for everyone.
+    <p align='justify'>Initially, the main purpose of this website is to serve our country’s people only, so we will use those payment systems which are mostly available in our country. Such as- bKASH, rocket, uCash and Credit Card. If any foreigner wants to subscribe to this service, s/he can contact to this website’s admin panel to get help. But, in the beginning, it will be free for everyone.</p>
