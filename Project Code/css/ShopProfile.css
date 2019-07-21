@@ -6,7 +6,9 @@
 }
 .row {
   /* box-shadow: 10px 10px 10px 5px; */
-  background-image: url('../img/book7.jpg');
+  background-image: url('../img/reg-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .profileInfo {
 }
