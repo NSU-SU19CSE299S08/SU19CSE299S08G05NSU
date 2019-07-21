@@ -5,8 +5,8 @@
 .shopProfile-2 {
 }
 .row {
-  border: 1px solid black;
-  box-shadow: 10px 10px 10px 5px;
+  /* box-shadow: 10px 10px 10px 5px; */
+  background-image: url('../img/book7.jpg');
 }
 .profileInfo {
 }
