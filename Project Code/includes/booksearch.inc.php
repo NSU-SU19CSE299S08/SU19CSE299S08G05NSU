@@ -17,7 +17,11 @@ if (isset($_POST['submit'])) {
             header("Location:../index1.php?login=error");
             exit();
         }else{
-            
+            $rows=mysqli_fetch_assoc($result);
+
+            echo $rows['BookName'];
+
+            // need to add code for showing book details here 
         }
 
     }
