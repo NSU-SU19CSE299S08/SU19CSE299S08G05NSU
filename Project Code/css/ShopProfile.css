@@ -1,0 +1,20 @@
+.shopProfile {
+}
+.shopProfile-1 {
+}
+.shopProfile-2 {
+  border-left: 2px solid #fff;
+}
+.row {
+  /* box-shadow: 10px 10px 10px 5px; */
+  background-image: url('../img/reg-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profileInfo {
+}
+.profileInfo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
