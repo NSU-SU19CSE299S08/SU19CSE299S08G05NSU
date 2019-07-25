@@ -5,6 +5,9 @@
 .shopProfile-2 {
   border-left: 2px solid #fff;
 }
+.shopProfile-2 button {
+  padding: 2px 25px;
+}
 .row {
   /* box-shadow: 10px 10px 10px 5px; */
   /* background-image: url('../img/reg-back.jpg');
