@@ -22,3 +22,23 @@
   height: 200px;
   border-radius: 50%;
 }
+
+/* -----------book structure css style------- */
+.bookfair19 {
+  box-shadow: 0 0 10px;
+  padding: 30px 50px;
+  margin: 30px 0;
+}
+.bf19books-title {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bf19books-title h3 {
+  margin-left: -20px;
+}
+.bf19books-title a {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
