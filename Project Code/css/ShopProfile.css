@@ -8,7 +8,7 @@
 .shopProfile-2 button {
   padding: 2px 25px;
 }
-.row {
+.shopHeader {
   /* box-shadow: 10px 10px 10px 5px; */
   /* background-image: url('../img/reg-back.jpg');
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 
 /* -----------book structure css style------- */
-.bookfair19 {
+/* .bookfair19 {
   box-shadow: 0 0 10px;
   padding: 30px 50px;
   margin: 30px 0;
@@ -42,3 +42,16 @@
   top: 0;
   right: 0;
 }
+
+.bf19books-list img {
+  width: 132px;
+  height: 187px;
+}
+
+.bf19books-list .bf19book1 {
+  width: 150px;
+  height: 360px;
+}
+.bf19book1 .bf19-content {
+  min-height: 305px;
+} */
