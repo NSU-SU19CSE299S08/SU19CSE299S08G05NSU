@@ -5,11 +5,15 @@
 .shopProfile-2 {
   border-left: 2px solid #fff;
 }
-.row {
+.shopProfile-2 button {
+  padding: 2px 25px;
+}
+.shopHeader {
   /* box-shadow: 10px 10px 10px 5px; */
-  background-image: url('../img/reg-back.jpg');
+  /* background-image: url('../img/reg-back.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(22, 22, 22);
 }
 .profileInfo {
 }
@@ -18,3 +22,39 @@
   height: 200px;
   border-radius: 50%;
 }
+
+.col-md-3 {
+  margin-top: 30px;
+}
+/* -----------book structure css style------- */
+/* .bookfair19 {
+  box-shadow: 0 0 10px;
+  padding: 30px 50px;
+  margin: 30px 0;
+}
+.bf19books-title {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bf19books-title h3 {
+  margin-left: -20px;
+}
+.bf19books-title a {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bf19books-list img {
+  width: 132px;
+  height: 187px;
+}
+
+.bf19books-list .bf19book1 {
+  width: 150px;
+  height: 360px;
+}
+.bf19book1 .bf19-content {
+  min-height: 305px;
+} */
