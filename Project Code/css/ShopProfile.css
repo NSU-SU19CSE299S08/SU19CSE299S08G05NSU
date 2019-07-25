@@ -23,6 +23,9 @@
   border-radius: 50%;
 }
 
+.col-md-3 {
+  margin-top: 30px;
+}
 /* -----------book structure css style------- */
 /* .bookfair19 {
   box-shadow: 0 0 10px;
