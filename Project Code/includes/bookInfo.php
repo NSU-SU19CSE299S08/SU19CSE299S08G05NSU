@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
     $bookLanguage = mysqli_real_escape_string($conn, $_POST['bookLanguage']);
     $bookImage = mysqli_real_escape_string($conn, $_POST['fileUpload']);
 
-    $sql = "INSERT INTO bookinfo (BookName,AuthorName,PublisherName,ISBN,BookPrice,BookLanguage,BookImage) VALUES ('$bookName','$authorName','$publisherName','$isbnNumber','$bookPrice','$bookLanguage',$bookImage)";
+    $sql = "INSERT INTO bookinfo (BookName,AuthorName,PublisherName,ISBN,BookPrice,BookLanguage,BookImage) VALUES ('$bookName','$authorName','$publisherName','$isbnNumber','$bookPrice','$bookLanguage','$bookImage')";
     mysqli_query($conn, $sql);
 } else {
     echo 'not submitted';
