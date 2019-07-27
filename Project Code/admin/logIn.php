@@ -16,5 +16,18 @@ if(isset($_POST['submit'])){
     if(empty($aid) || empty($apass)){
         header("Location:../login.php?login=error");
         exit();
+    }else{
+
+        // sql query for fetch data from database.
+        $sql="SELECT * FROM admins WHERE admin_aid='$aid'";
+        $result=mysqli_query($conn,$sql);
+        $resultCheck=mysqli_num_rows($result);
+
+        //check if user not exist 
+        if($resultCheck <1){
+            header("Location:../login.php?login=error");
+			exit();
+        }else{
+
     }
 }
