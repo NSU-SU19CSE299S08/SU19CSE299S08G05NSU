@@ -75,123 +75,17 @@ include_once 'includes/dbh.inc.php'
             <div class="bf19book1">
               <div class="bf19-content">
                 <a href="" title="<?php echo $row['BookName'];  ?>">
-                  <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-                <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
+                  <img src="img/bookfair19/vaireapure.jpg" alt="<?php echo $row['BookName'];  ?>" /></a>
+                <a href="" title="<?php echo $row['BookName'];  ?>">
                   <h5><?php echo $row['BookName']; ?></h5>
                 </a>
                 <a href="">
-                  <p class="lead">শাব্বির আহসান</p>
+                  <p class="lead"><?php echo $row['AuthorName'];  ?></p>
                 </a>
               </div>
             </div>
           </div>
         <?php } ?>
-
-        <!-- <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-           
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-           
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-            
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
