@@ -3,8 +3,6 @@ session_start();
 
 ?>
 
-?>
-
 <?php
 session_start();
 
@@ -24,7 +22,7 @@ include_once "dbh.inc.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Login</title>
+    <title>Update</title>
 
     <!-- css files -->
     <link rel="stylesheet" href="css/all.min.css" />
@@ -47,7 +45,13 @@ include_once "dbh.inc.php";
         <h1 class="text-center text-dark">Update</h1>
         <form action="admin/update.inc.php" method=" POST" onsubmit="return regValidation();">
     </div>
-
     <script src="js/form-validation.js"></script>
+
+    <?php
+         include 'includes/dbh.inc.php';
+         $sql="SELECT * FROM admins ";
+		 $result=mysqli_query($conn,$sql);
+
+         ?>
   </body>
 </html>
