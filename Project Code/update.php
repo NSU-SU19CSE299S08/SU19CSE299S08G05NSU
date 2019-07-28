@@ -49,9 +49,18 @@ include_once "dbh.inc.php";
 
     <?php
          include 'includes/dbh.inc.php';
-         $sql="SELECT * FROM admins ";
+         $sql="SELECT * FROM users ";
 		 $result=mysqli_query($conn,$sql);
 
-         ?>
+    ?>
+
+    <table>
+         	<tr>
+                 <th>User_name</th>
+                 <th>v_uid</th>
+         		<th>v_email</th>
+         		<th>v_phone</th>
+             </tr>
+    </table>
   </body>
 </html>
