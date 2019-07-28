@@ -28,6 +28,7 @@ include_once 'includes/dbh.inc.php'
 </head>
 
 <body>
+
   <div class="shopInfo">
     <div class="shopProfile">
       <div class="container">
@@ -55,10 +56,38 @@ include_once 'includes/dbh.inc.php'
       </div>
     </div>
   </div>
+
+  <?php
+  $sql = "SELECT * FROM bookinfo";
+  $result = mysqli_query($conn, $sql);
+  $resultCheck = mysqli_num_rows($result);
+  ?>
+
+
+
   <div class="shopBooks">
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-3">
+        <?php
+        while ($row = mysqli_fetch_assoc($result)) {
+          ?>
+          <div class="col-md-3">
+            <div class="bf19book1">
+              <div class="bf19-content">
+                <a href="" title="<?php echo $row['BookName'];  ?>">
+                  <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
+                <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
+                  <h5><?php echo $row['BookName']; ?></h5>
+                </a>
+                <a href="">
+                  <p class="lead">শাব্বির আহসান</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        <?php } ?>
+
+        <!-- <div class="col-md-3">
           <div class="bf19book1">
             <div class="bf19-content">
               <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
@@ -70,6 +99,7 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
+            
           </div>
         </div>
         <div class="col-md-3">
@@ -84,9 +114,7 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
+           
           </div>
         </div>
         <div class="col-md-3">
@@ -101,9 +129,7 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
+            
           </div>
         </div>
         <div class="col-md-3">
@@ -118,9 +144,7 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
+            
           </div>
         </div>
         <div class="col-md-3">
@@ -135,9 +159,7 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
+           
           </div>
         </div>
         <div class="col-md-3">
@@ -152,9 +174,7 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
+            
           </div>
         </div>
         <div class="col-md-3">
@@ -169,28 +189,9 @@ include_once 'includes/dbh.inc.php'
                 <p class="lead">শাব্বির আহসান</p>
               </a>
             </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
+            
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="bf19book1">
-            <div class="bf19-content">
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <img src="img/bookfair19/vaireapure.jpg" alt="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)" /></a>
-              <a href="" title="ভাইরে আপুরে!!! (বই, লেখাপড়া, জীবন)">
-                <h5>ভাইরে আপুরে!!!</h5>
-              </a>
-              <a href="">
-                <p class="lead">শাব্বির আহসান</p>
-              </a>
-            </div>
-            <!-- <button class="btn btn-danger" type="button" name="button">
-                      Add to List
-                    </button> -->
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
