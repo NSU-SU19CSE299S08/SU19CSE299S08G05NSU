@@ -14,7 +14,7 @@
 
 <body>
   <div class="formArea">
-    <form action="includes/bookInfo.php" method="POST" class="formSection" onsubmit="return bookEntryForm();">
+    <form action="includes/bookInfo.php" method="POST" class="formSection" onsubmit="return bookEntryForm();" enctype="multipart/form-data">
       <h1 class="text-center mb-4">Book Information</h1>
       <div class="row">
         <div class="form__right col-md-6">
