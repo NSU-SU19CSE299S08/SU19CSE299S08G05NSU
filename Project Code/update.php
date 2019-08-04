@@ -40,6 +40,20 @@ include_once "dbh.inc.php";
     <script src="js/popper.min.js"></script>
   </head>
   <body>
+    <nav class="navbar navbar-dark bg-dark  navbar-expand-md">
+
+                <div class="container">
+                  <a class="navbar-brand active" href="#">Home</a>
+                  <ul class="navbar-nav">
+        
+                      <li class="nav-item"><a class="nav-link" href="#">View User</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Delete user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Add user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                  </ul>
+              </div>
+            </nav>
+
     <div class="main">
       <div class="loginForm">
         <h1 class="text-center text-dark">Update</h1>
