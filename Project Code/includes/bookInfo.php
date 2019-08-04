@@ -1,7 +1,10 @@
 <?php
+
 if (isset($_POST['submit'])) {
 
     include_once 'dbh.inc.php';
+    // mysql_query("SET CHARACTER SET utf8");
+    // mysql_query("SET SESSION collation_connection ='utf8_general_ci'");
 
     $bookName = mysqli_real_escape_string($conn, $_POST['bookName']);
     $authorName = mysqli_real_escape_string($conn, $_POST['authorName']);
