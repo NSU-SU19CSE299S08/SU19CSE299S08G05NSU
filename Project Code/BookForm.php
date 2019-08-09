@@ -45,7 +45,7 @@
             <label id="bookLanguageLabel"></label>
           </div>
           <div class="form-group">
-            <input type="file" class="form-control-file" id="fileUpload" name="fileUpload" onchange="readURL(this);" />
+            <input type="file" class="form-control-file" id="fileUpload" name="image" onchange="readURL(this);" />
           </div>
           <div class="imagePreview">
             <img src="" alt="" id="img" />
