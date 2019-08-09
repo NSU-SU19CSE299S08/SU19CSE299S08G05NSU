@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('../img/reg-back2.jpg');
+  
 }
 /* .box
 {
@@ -26,11 +27,17 @@ body {
 }
 .main h1 {
   padding: 30px;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
-.main form input {
+.main form input  {
   border: 1px solid black;
+}
+.main .form-input7 input{
+  border: none;
+  margin: 4px auto 0 auto;
+  display: block;
+  padding: 7px 80px;
 }
 /* .main input[type='text'],
 input[type='password'],
