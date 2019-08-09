@@ -25,7 +25,8 @@ if (isset($_POST['submit'])) {
             
             $data = mysqli_query($conn, $sql);
         if($data){
-            echo 'submitted';
+            header("Location: ../BookForm.php?BookInfo=inserted");
+            exit();
         }
         else{
             echo 'not submitted';
