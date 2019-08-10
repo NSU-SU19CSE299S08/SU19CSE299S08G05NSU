@@ -44,9 +44,13 @@
             <input type="text" class="form-control" id="bookLanguage" name="bookLanguage" placeholder="Book's Language" />
             <label id="bookLanguageLabel"></label>
           </div>
+          <!-- <div class="form-group">
+            <input type="text" class="form-control-file" id="shopAddress" name="shopAddress" placeholder="Shop's Address" />
+          </div> -->
           <div class="form-group">
             <input type="file" class="form-control-file" id="fileUpload" name="image" onchange="readURL(this);" />
           </div>
+          
           <div class="imagePreview">
             <img src="" alt="" id="img" />
           </div>
