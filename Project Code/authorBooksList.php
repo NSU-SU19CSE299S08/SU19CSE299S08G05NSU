@@ -2,6 +2,9 @@
 include_once 'includes/dbh.inc.php';
 
 $sql = "SELECT * from bookinfo where ID =".$_GET['ID'];
+$result = mysqli_query($conn,$sql);
+
+
 ?>
 
 
@@ -40,10 +43,11 @@ $sql = "SELECT * from bookinfo where ID =".$_GET['ID'];
         <section class="bookList">
             <div class="container">
                 <div class="row mt-5 text-center">
+                  <?php while($row = mysqli_fetch_assoc($result)){ ?>
                     <div class="col-md-3">
                             <div class="bf19book1">
                                     <div class="bf19-content">
-                                      <a href="" title="গন  গার্ল"
+                                      <a href="" title="<?php echo $row"
                                         ><img src="img/bookfair19/gonegirl.jpg" alt="গন গার্ল"
                                       /></a>
                                       <a href="" title="গন  গার্ল"><h5>গন গার্ল</h5></a>
