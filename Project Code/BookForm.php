@@ -14,7 +14,7 @@
 
 <body>
   <div class="formArea">
-    <form action="includes/bookInfo.php" method="POST" class="formSection" onsubmit="return bookEntryForm();" enctype="multipart/form-data">
+    <form action="bookInfo.php" method="POST" class="formSection" onsubmit="return bookEntryForm();" enctype="multipart/form-data">
       <h1 class="text-center mb-4">Book Information</h1>
       <div class="row">
         <div class="form__right col-md-6">
@@ -45,7 +45,7 @@
             <label id="bookLanguageLabel"></label>
           </div>
           <div class="form-group">
-            <input type="file" class="form-control-file" id="fileUpload" name="fileUpload" onchange="readURL(this);" />
+            <input type="file" class="form-control-file" id="fileUpload" name="image" onchange="readURL(this);" />
           </div>
           <div class="imagePreview">
             <img src="" alt="" id="img" />
