@@ -74,8 +74,8 @@ include_once 'includes/dbh.inc.php'
           <div class="col-md-3">
             <div class="bf19book1">
               <div class="bf19-content">
-                <a href="" title="<?php echo $row['BookName'];  ?>">
-                  <img src="" alt="<?php echo $row['BookName'];  ?>" /></a>
+                <a href="index1.php?page=bookDetails&ID=<?php echo $row['ID']?>" title="<?php echo $row['BookName'];  ?>">
+                  <img src="img/bookfair19/vaireapure.jpg" alt="<?php echo $row['BookName'];  ?>" /></a>
                 <a href="" title="<?php echo $row['BookName'];  ?>">
                   <h5><?php echo $row['BookName']; ?></h5>
                 </a>
