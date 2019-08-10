@@ -1,4 +1,12 @@
-<?php  ?>
+<?php
+include_once 'includes/dbh.inc.php';
+
+
+$authorSql = "SELECT AuthorName from bookinfo";
+$authorSqlData = mysqli_query($conn,$authorSql);
+
+
+?>
 
 
 
@@ -27,18 +35,22 @@
 </head>
 <body>
     <header>
+        <?php
+            // include'includes/header.inc.php';
         
+        ?>
     </header>
     <section class="author">
         <div class="container">
             <div class="row text-center">
+                <?php while($row = mysqli_fetch_assoc($authorSqlData)) { ?>
                 <div class="col-md-3 authorProfile">
-                    <a href="">
+                    <a href="authorBooksList.php?page=authorBooksList&ID=<?php echo $row['ID'] ?>">
                         <img src="img/author/author.jpg" alt="">
-                        <h3 class="mt-3">name goes here</h3>
+                        <h5 class="mt-3"><?php echo $row['AuthorName'] ?></h5>
                     </a>
                 </div>
-                
+                <?php } ?>
             </div>
         </div>
     </section>
