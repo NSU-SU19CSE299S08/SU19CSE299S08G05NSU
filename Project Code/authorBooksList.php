@@ -2,8 +2,10 @@
 include_once 'includes/dbh.inc.php';
 
 $sql = "SELECT * from bookinfo where ID =".$_GET['ID'];
-$result = mysqli_query($conn,$sql);
 
+
+$result = mysqli_query($conn,$sql);
+  
 
 ?>
 
@@ -47,14 +49,15 @@ $result = mysqli_query($conn,$sql);
                     <div class="col-md-3">
                             <div class="bf19book1">
                                     <div class="bf19-content">
-                                      <a href="" title="<?php echo $row"
-                                        ><img src="img/bookfair19/gonegirl.jpg" alt="গন গার্ল"
+                                      <a href="" title="<?php echo $row['BookName']?>"
+                                        ><img src="<?php echo $row['BookImage']?>" alt="<?php echo $row['BookName']?>"
                                       /></a>
-                                      <a href="" title="গন  গার্ল"><h5>গন গার্ল</h5></a>
-                                      <a href=""><p>গিলিয়ান ফ্লিন</p></a>
+                                      <a href="" title="<?php echo $row['BookName']?>"><h5><?php echo $row['BookName']?></h5></a>
+                                      <a href=""><p><?php echo $row['AuthorName']?></p></a>
                                     </div>
                                     
                                   </div>
+                  <?php } ?>
                     </div>
                 </div>
             </div>

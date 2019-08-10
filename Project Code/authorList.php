@@ -2,7 +2,7 @@
 include_once 'includes/dbh.inc.php';
 
 
-$authorSql = "SELECT AuthorName from bookinfo";
+$authorSql = "SELECT * from bookinfo";
 $authorSqlData = mysqli_query($conn,$authorSql);
 
 
@@ -46,7 +46,7 @@ $authorSqlData = mysqli_query($conn,$authorSql);
                 <?php while($row = mysqli_fetch_assoc($authorSqlData)) { ?>
                 <div class="col-md-3 authorProfile">
                     <a href="authorBooksList.php?page=authorBooksList&ID=<?php echo $row['ID'] ?>">
-                        <img src="img/author/author.jpg" alt="">
+                        <img src="img/author/author.jpg" alt="<?php echo $row['AuthorName'] ?>">
                         <h5 class="mt-3"><?php echo $row['AuthorName'] ?></h5>
                     </a>
                 </div>
