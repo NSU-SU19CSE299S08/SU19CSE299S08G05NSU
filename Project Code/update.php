@@ -1,17 +1,9 @@
-<?php
-session_start();
 
-?>
 
 <?php
-session_start();
-
-if(!isset($_SESSION['a_id']))
-{
-	header("Location:login.php");
-    exit;
-}
-include_once "dbh.inc.php";
+include_once "includes/dbh.inc.php";
+$query = "SELECT * FROM users";
+$result = mysqli_query($conn,$query);
 
 ?>
 
@@ -40,10 +32,10 @@ include_once "dbh.inc.php";
     <script src="js/popper.min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark  navbar-expand-md">
+        <nav class="navbar navbar-dark bg-dark  navbar-expand-md">
 
                 <div class="container">
-                  <a class="navbar-brand active" href="#">Home</a>
+                  <a class="navbar-brand active" href="index.php">Home</a>
                   <ul class="navbar-nav">
         
                       <li class="nav-item"><a class="nav-link" href="#">View User</a></li>
@@ -53,28 +45,43 @@ include_once "dbh.inc.php";
                   </ul>
               </div>
             </nav>
+            <h1 class="display-4">User List:</h1>
 
-    <div class="main">
-      <div class="loginForm">
-        <h1 class="text-center text-dark">Update</h1>
-        <form action="admin/update.inc.php" method=" POST" onsubmit="return regValidation();">
-    </div>
-    <script src="js/form-validation.js"></script>
+         <div class="table-info">
+              <table class="table table-bordered table-hover">
+                <thead class="table-light ">
+                  <tr>
+                    <th>ID</th>
+                    <th>First_Name</th>
+                   <th>User_Name</th>
+                   <th>Email</th>
+                   <th>Phone</th>
+                  </tr>
+                </thead>
+                <?php
+        while ($row=mysqli_fetch_array($result)) {
 
-    <?php
-         include 'includes/dbh.inc.php';
-         $sql="SELECT * FROM users ";
-		 $result=mysqli_query($conn,$sql);
+          echo "<tr><form action='includes/update.inc.php' method=POST>";
+          echo "<td><input type=text name=id value='".$row['user_id']."'</td>";
+          echo "<td><input type=text name=Name value='".$row['full_name']."'</td>";
+          echo "<td><input type=text name=uid value='".$row['user_uid']."'</td>";
+          echo "<td><input type=text name=email value='".$row['user_email']."'</td>";
+          echo "<td><input type=text name=phone value='".$row['user_phone']."'</td>";
+     
+     echo "<td><input type=submit value=update>";
+     echo"</form></tr>";
+        }
 
-    ?>
 
-    <table>
-         	<tr>
-                 <th>User_name</th>
-                 <th>v_uid</th>
-         		<th>v_email</th>
-         		<th>v_phone</th>
-             </tr>
-    </table>
+        ?>
+  </table>
+</div>
+
+</div>
+
+
+</div>
+    <script src="../js/form-validation.js"></script>
+
   </body>
 </html>

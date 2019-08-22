@@ -35,8 +35,8 @@
           <!-- <button class="btn btn-light" type="button" name="button">
             <i class="fas fa-list-ul"></i>
           </button> -->
-          <a href="login.html" class="btn btn-outline-dark "> Login</a>
-          <a href="registration.html" class="btn btn-outline-dark"> Register</a>
+          <a href="login.php" class="btn btn-outline-dark "> Login</a>
+          <a href="registration.php" class="btn btn-outline-dark"> Register</a>
         </div>
       </div>
       <!-------logo area ends----->
@@ -44,7 +44,7 @@
       <div class="menu-search">
         <nav class="main-menu">
           <ul>
-            <li><a class="active" href="index1.html">home</a></li>
+            <li><a class="active" href="index.php">home</a></li>
             <li>
               <a href="javascript:void(0)">লেখক</a>
               <ul>

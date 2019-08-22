@@ -1,7 +1,7 @@
 <div class="menu-search">
         <nav class="main-menu">
           <ul>
-            <li><a class="active" href="index1.html">home</a></li>
+            <li><a class="active" href="index.php">home</a></li>
             <li>
               <a href="javascript:void(0)">লেখক</a>
               <ul>
