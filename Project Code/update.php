@@ -1,18 +1,7 @@
-<?php
-session_start();
-
-if(!isset($_SESSION['a_id']))
-{
-	header("Location:login.php");
-    exit;
-}
-include_once "dbh.inc.php";
-
-?>
 
 
 <?php
-include_once "dbh.inc.php";
+include_once "includes/dbh.inc.php";
 $query = "SELECT * FROM users";
 $result = mysqli_query($conn,$query);
 
@@ -28,9 +17,9 @@ $result = mysqli_query($conn,$query);
     <title>Update</title>
 
     <!-- css files -->
-    <link rel="stylesheet" href="../css/all.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
@@ -38,15 +27,15 @@ $result = mysqli_query($conn,$query);
 
     <!-- js files- -->
 
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/popper.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
   </head>
   <body>
         <nav class="navbar navbar-dark bg-dark  navbar-expand-md">
 
                 <div class="container">
-                  <a class="navbar-brand active" href="#">Home</a>
+                  <a class="navbar-brand active" href="index.php">Home</a>
                   <ul class="navbar-nav">
         
                       <li class="nav-item"><a class="nav-link" href="#">View User</a></li>
@@ -66,28 +55,25 @@ $result = mysqli_query($conn,$query);
                     <th>First_Name</th>
                    <th>User_Name</th>
                    <th>Email</th>
-                  <th>password</th>
+                   <th>Phone</th>
                   </tr>
                 </thead>
-                <tbody>
+                <?php
+        while ($row=mysqli_fetch_array($result)) {
 
-     <?php
-    while($sql = mysqli_fetch_assoc($result)) {?>
-    <tr>
-      <td><?php echo $sql['uid'] ?></td>
-      <td><?php echo $sql['f_name'] ?></td>
-      <td><?php echo $sql['u_name'] ?></td>
-      <td><?php echo $sql['u_email'] ?></td>
-      <td><?php echo $sql['u_email'] ?></td>
-      <td><?php echo $sql['u_pass'] ?></td>
+          echo "<tr><form action='includes/update.inc.php' method=POST>";
+          echo "<td><input type=text name=id value='".$row['user_id']."'</td>";
+          echo "<td><input type=text name=Name value='".$row['full_name']."'</td>";
+          echo "<td><input type=text name=uid value='".$row['user_uid']."'</td>";
+          echo "<td><input type=text name=email value='".$row['user_email']."'</td>";
+          echo "<td><input type=text name=phone value='".$row['user_phone']."'</td>";
+     
+     echo "<td><input type=submit value=update>";
+     echo"</form></tr>";
+        }
 
-    </tr>
-    <?php
 
-     };?>
-
-</tbody>
-
+        ?>
   </table>
 </div>
 
