@@ -69,22 +69,22 @@ include_once 'includes/dbh.inc.php'
     <div class="container">
       <div class="row text-center">
         <?php
-        while ($row = mysqli_fetch_assoc($result)) {
+        while ($row = mysqli_fetch_array($result)) {
           ?>
-          <div class="col-md-3">
-            <div class="bf19book1">
-              <div class="bf19-content">
-                <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row['ID']?>" title="<?php echo $row['BookName'];  ?>">
-                  <img src="<?php echo $row['BookImage'] ?>" alt="<?php echo $row['BookName'];  ?>" /></a>
-                <a href="" title="<?php echo $row['BookName'];  ?>">
-                  <h5><?php echo $row['BookName']; ?></h5>
-                </a>
-                <a href="">
-                  <p class="lead"><?php echo $row['AuthorName'];  ?></p>
-                </a>
-              </div>
+        <div class="col-md-3">
+          <div class="bf19book1">
+            <div class="bf19-content">
+              <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row['id'] ?>" title="<?php echo $row['BookName'];  ?>">
+                <img src="<?php echo $row['BookImage'] ?>" alt="<?php echo $row['BookName'];  ?>" /></a>
+              <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row['id'] ?>" title="<?php echo $row['BookName'];  ?>">
+                <h5><?php echo $row['BookName']; ?></h5>
+              </a>
+              <a href="">
+                <p class="lead"><?php echo $row['AuthorName'];  ?></p>
+              </a>
             </div>
           </div>
+        </div>
         <?php } ?>
       </div>
     </div>
