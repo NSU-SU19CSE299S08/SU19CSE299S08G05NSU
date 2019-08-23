@@ -31,6 +31,19 @@ $result = mysqli_query($conn,$query);
     <script src="js/popper.min.js"></script>
   </head>
   <body>
+  <nav class="navbar navbar-dark bg-dark  navbar-expand-md">
+
+                <div class="container">
+                  <a class="navbar-brand active" href="index.php">Home</a>
+                  <ul class="navbar-nav">
+        
+                      <li class="nav-item"><a class="nav-link" href="#">View User</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Delete user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Add user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                  </ul>
+              </div>
+            </nav>
       
 
     <script src="../js/form-validation.js"></script>
