@@ -37,13 +37,25 @@ $result = mysqli_query($conn,$query);
                   <a class="navbar-brand active" href="index.php">Home</a>
                   <ul class="navbar-nav">
         
-                      <li class="nav-item"><a class="nav-link" href="#">View User</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Delete user</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Add user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="viewUser.php">View User</a></li>
+                      <li class="nav-item"><a class="nav-link" href="update.php">Update user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="deleteUser.php">Delete user</a></li>
                       <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
                   </ul>
               </div>
             </nav>
+            <div class="table-info">
+              <table class="table table-bordered table-hover">
+                <thead class="table-light ">
+                  <tr>
+                    <th>ID</th>
+                    <th>First_Name</th>
+                   <th>User_Name</th>
+                   <th>Email</th>
+                   <th>Phone</th>
+                  </tr>
+                </thead>
+                <?php
       
 
     <script src="../js/form-validation.js"></script>
