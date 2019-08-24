@@ -38,6 +38,7 @@ session_start();
       <form action="includes/login.inc.php" method="POST" onsubmit="return regValidation();">
         <div class="form-input">
 
+
           <input type="text" id="uemail" placeholder="Enter Your Username" name="uid" />
           <label for="" id="email__label1"></label>
         </div>
