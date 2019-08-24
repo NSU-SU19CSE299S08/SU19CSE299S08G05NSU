@@ -35,11 +35,11 @@ if (isset($_POST['submit'])) {
                     header("Location:../login.php?login=wrong_password");
                     exit();
                 } else {
-                    $_SESSION['u_id'] = $row['user_id'];
-                    $_SESSION['name'] = $row['full_name'];
-                    $_SESSION['u_uid'] = $row['user_uid'];
-                    $_SESSION['u_email'] = $row['user_email'];
-                    $_SESSION['u_phone'] = $row['user_phone'];
+                    $_SESSION['user_id'] = $row['user_id'];
+                    $_SESSION['full_name'] = $row['full_name'];
+                    $_SESSION['user_uid'] = $row['user_uid'];
+                    $_SESSION['user_email'] = $row['user_email'];
+                    $_SESSION['user_phone'] = $row['user_phone'];
 
                     //need to add the page path which will apear after successful login.
                     header("Location:../index1.php?login=success");

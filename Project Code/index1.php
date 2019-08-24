@@ -50,9 +50,9 @@ $indexSqlData = mysqli_query($conn, $indexSql);
       <div class="logo"><a href="index1.html">BookFinder</a></div>
       <div class="signin text-right">
         <?php
-        if (isset($_SESSION['u_uid'])) {
-          $user = $_SESSION['u_uid'];
-          $query = "SELECT * FROM users Where u_uid = '$user';";
+        if (isset($_SESSION['user_uid'])) {
+          $user = $_SESSION['user_uid'];
+          $query = "SELECT * FROM users Where user_uid = '$user';";
           $result = mysqli_query($conn, $query);
           $row = mysqli_fetch_array($result);
           $userName = $row['user_uid'];
