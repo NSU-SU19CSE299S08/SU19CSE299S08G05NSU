@@ -35,8 +35,9 @@ session_start();
   <div class="main">
     <div class="loginForm">
       <h1 class="text-center text-dark">Login</h1>
-      <form action="includes/login.inc.php" method=" POST" onsubmit="return regValidation();">
+      <form action="includes/login.inc.php" method="POST" onsubmit="return regValidation();">
         <div class="form-input">
+
 
           <input type="text" id="uemail" placeholder="Enter Your Username" name="uid" />
           <label for="" id="email__label1"></label>
