@@ -8,6 +8,9 @@ if (isset($_POST['submit'])) {
 
     $search= mysqli_real_escape_string($conn, $_POST['search']);
     $sql= "SELECT * FROM bookinfo WHERE BookName='$search' OR AuthorName='$search' OR PublisherName='$search' ";
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+    
 }else{
     
 }
