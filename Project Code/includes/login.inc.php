@@ -1,11 +1,9 @@
 <?php
 
-
-
 if (isset($_POST['submit'])) {
     // after click the login button page will connect to tha database
 
-    include 'dbh.inc.php';
+    include_once 'dbh.inc.php';
 
     // fetch data from client
 
@@ -53,3 +51,6 @@ if (isset($_POST['submit'])) {
     header("Location:../index1.php?login=error");
     exit();
 }
+
+?>
+
