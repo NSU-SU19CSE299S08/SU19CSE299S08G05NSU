@@ -19,7 +19,7 @@
   <div class="main">
     <div class="loginForm">
       <h1 class="text-center text-dark">Register</h1>
-      <form action="includes/registration.inc.php" onsubmit="return regValidation();">
+      <form action="includes/registration.inc.php" method="POST" submit="return regValidation();">
         <div class="form-input1">
           <input type="text" id="fullName" name="full_name" placeholder="Enter Your Full Name" />
           <label id="fullName__label1"></label>

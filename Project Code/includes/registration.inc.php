@@ -20,7 +20,8 @@ if (isset($_POST['submit'])) {
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
     if ($resultCheck > 0) {
-        echo "UserNmae already exist";
+        header("Location: ../registration.php?error=usernameexist");
+        exit();
     } else {
         //check for empty fields
 

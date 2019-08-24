@@ -36,12 +36,15 @@
           <input type="password" placeholder="Enter Your Password" />
           <label id="pass__label1"></label>
         </div>
-        <div class="forgot__pass">
-          <a href="#">Forgot Password?</a>
-        </div>
+
+        <input class="btn btn-outline-danger" type="submit" name="submit" value="Login">
+
         <div class="form-footer">
           <a href="registration.php">Create An Account.</a>
         </div>
+
+
+
     </div>
 
     <script src="js/form-validation.js"></script>
