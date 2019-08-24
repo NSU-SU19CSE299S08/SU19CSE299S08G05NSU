@@ -38,12 +38,12 @@ session_start();
       <form action="includes/login.inc.php" method=" POST" onsubmit="return regValidation();">
         <div class="form-input">
 
-          <input type="text" id="uemail" placeholder="Enter Your Email" />
+          <input type="text" id="uemail" placeholder="Enter Your Username" name="uid" />
           <label for="" id="email__label1"></label>
         </div>
         <div class="form-input">
 
-          <input type="password" placeholder="Enter Your Password" />
+          <input type="password" name="pass" placeholder="Enter Your Password" />
           <label id="pass__label1"></label>
         </div>
 
