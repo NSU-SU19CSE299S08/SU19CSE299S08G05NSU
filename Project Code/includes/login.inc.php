@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if (isset($_POST['submit'])) {
     // after click the login button page will connect to tha database
@@ -48,7 +49,7 @@ if (isset($_POST['submit'])) {
     }
 } else {
     // go back to the login page.
-    header("Location:../index1.php?login=error");
+    header("Location:../login.php?login=error2");
     exit();
 }
 
