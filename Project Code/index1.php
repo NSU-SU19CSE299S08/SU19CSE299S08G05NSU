@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once 'includes/dbh.inc.php';
 
 
@@ -44,11 +45,29 @@ $indexSqlData = mysqli_query($conn, $indexSql);
     <!---header area starts----->
     <div class="logo-bar">
       <!---logo area starts----->
+
+
       <div class="logo"><a href="index1.html">BookFinder</a></div>
       <div class="signin text-right">
+        <?php
+        if (isset($_SESSION['u_uid'])) {
+          $user = $_SESSION['u_uid'];
+          $query = "SELECT * FROM users Where u_uid = '$user';";
+          $result = mysqli_query($conn, $query);
+          $row = mysqli_fetch_array($result);
+          $userName = $row['user_uid'];
+          echo $userName;
 
-        <a href="login.html" class="btn btn-outline-dark "> Login</a>
-        <a href="registration.html" class="btn btn-outline-dark"> Register</a>
+          echo '<a href="#" class="btn btn-outline-danger">username</a>
+        <a href="includes/logout.inc.php" class="btn btn-outline-dark">Logout</a>';
+        } else {
+          echo ' <a href="login.php" class="btn btn-outline-dark "> Login</a>
+        <a href="registration.php" class="btn btn-outline-dark"> Register</a>';
+        }
+
+
+        ?>
+
       </div>
     </div>
     <!-------logo area ends----->
