@@ -5,7 +5,7 @@ session_start();
 if (isset($_POST['submit'])) {
     // after click the login button page will connect to tha database
 
-    include 'dbh.inc.php';
+    include_once 'dbh.inc.php';
 
     // fetch data from client
 
@@ -50,6 +50,13 @@ if (isset($_POST['submit'])) {
     }
 } else {
     // go back to the login page.
+<<<<<<< HEAD
     header("Location:../login.php?login=error");
+=======
+    header("Location:../login.php?login=error2");
+>>>>>>> 2b3947c490f5436fc25ad5daeef104304b915664
     exit();
 }
+
+?>
+
