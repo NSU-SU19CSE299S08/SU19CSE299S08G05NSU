@@ -36,13 +36,13 @@ if(isset($_POST['submit'])){
 					exit();
                 }else{
                     $_SESSION['a_id']=$row['a_id'];
-                    $_SESSION['name']=$row['adminName'];
-                    $_SESSION['a_uid']=$row['adminUserName'];
-                    $_SESSION['a_email']=$row['adminEmail'];
-                    $_SESSION['a_phone']=$row['adminPhone'];
+                    $_SESSION['adminName']=$row['adminName'];
+                    $_SESSION['adminUserName']=$row['adminUserName'];
+                    $_SESSION['adminEmail']=$row['adminEmail'];
+                    $_SESSION['adminPhone']=$row['adminPhone'];
 
                     //need to add the page path which will apear after successful login.
-                    header("Location:../adminlogin.php?login=success") ;
+                    header("Location:../Ahome.php?login=success") ;
                 }
             }
         }
