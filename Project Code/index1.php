@@ -49,17 +49,22 @@ $indexSqlData = mysqli_query($conn, $indexSql);
 
       <div class="logo"><a href="index1.html">BookFinder</a></div>
       <div class="signin text-right">
+
+
         <?php
         if (isset($_SESSION['user_uid'])) {
+
           $user = $_SESSION['user_uid'];
           $query = "SELECT * FROM users Where user_uid = '$user';";
+
 
           $result = mysqli_query($conn, $query);
           $row = mysqli_fetch_array($result);
           $userName = $row['user_uid'];
-          echo $userName;
 
-          echo '<a href="#" class="btn btn-outline-danger">username</a>
+
+
+          echo '<a href="ShopProfile.php" class="btn btn-outline-danger">' . $userName . '</a>
         <a href="includes/logout.inc.php" class="btn btn-outline-dark">Logout</a>';
         } else {
           echo ' <a href="login.php" class="btn btn-outline-dark "> Login</a>

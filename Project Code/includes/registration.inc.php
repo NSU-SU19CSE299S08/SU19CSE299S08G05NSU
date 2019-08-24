@@ -10,6 +10,7 @@ if (isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($conn, $_POST['full_name']);
     $uid = mysqli_real_escape_string($conn, $_POST['uid']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $publisher = mysqli_real_escape_string($conn, $_POST['publisher']);
     $pass = mysqli_real_escape_string($conn, $_POST['pass']);
     $phone = mysqli_real_escape_string($conn, $_POST['phone']);
     $address = mysqli_real_escape_string($conn, $_POST['address']);
@@ -25,7 +26,7 @@ if (isset($_POST['submit'])) {
     } else {
         //check for empty fields
 
-        if (empty($name) || empty($uid) || empty($email) || empty($pass) || empty($phone) || empty($address)) {
+        if (empty($name) || empty($uid) || empty($email) || empty($publisher) || empty($pass) || empty($phone) || empty($address)) {
 
             header("Location: ../registration.php?signup=empty");
             exit();
@@ -50,8 +51,8 @@ if (isset($_POST['submit'])) {
                     } else {
                         // send data into the server
 
-                        $sql = "INSERT INTO users(full_name,user_uid,user_email,user_pass,user_phone,shop_address)
-                        VALUES('$name','$uid','$email','$pass','$phone','$address');";
+                        $sql = "INSERT INTO users(full_name,user_uid,user_email,publisher_name,user_pass,user_phone,shop_address)
+                        VALUES('$name','$uid','$email','$publisher','$pass','$phone','$address');";
                         mysqli_query($conn, $sql);
                         header("Location: ../registration.php?signup=success");
                         exit();

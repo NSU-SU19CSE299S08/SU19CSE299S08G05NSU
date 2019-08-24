@@ -50,7 +50,11 @@ if (isset($_POST['submit'])) {
     }
 } else {
     // go back to the login page.
+<<<<<<< HEAD
+    header("Location:../login.php?login=error");
+=======
     header("Location:../login.php?login=error2");
+>>>>>>> 2b3947c490f5436fc25ad5daeef104304b915664
     exit();
 }
 
