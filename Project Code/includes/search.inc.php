@@ -10,8 +10,20 @@ if (isset($_POST['submit'])) {
     $sql= "SELECT * FROM bookinfo WHERE BookName='$search' OR AuthorName='$search' OR PublisherName='$search' ";
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
-    
+    if($resultCheck > 0){
+        while($row = mysqli_fetch_assoc($result)){
+            echo  $row['BookName'];
+            echo  $row['AuthorName'];
+            echo  $row['BookPrice'];
+            
+        }
+
+    }else{
+        header("Location:../index1.php?search=NoFound");
+
+    }
 }else{
-    
+    header("Location:../index1.php?search=error");
+    exit();
 }
 ?>
