@@ -1,6 +1,31 @@
 <?php
-include_once 'includes/dbh.inc.php'
-?>
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+session_start();
+include_once 'includes/dbh.inc.php';
+
+
+
+if (isset($_SESSION['user_id']) == true) {
+  $userID = $_SESSION['user_id'];
+  $query1 = "SELECT * from users WHERE user_id ='$userID';";
+  $result1 = mysqli_query($conn, $query1);
+  $row1 = mysqli_fetch_assoc($result1);
+  $id = $row1['user_id'];
+
+
+
+
+  $query2 = "SELECT * FROM bookinfo WHERE userID = '$id'";
+  $result2 = mysqli_query($conn, $query2);
+
+
+  $userQuery = "SELECT * FROM users WHERE user_id = '$id'";
+  if ($userResult = mysqli_query($conn, $userQuery)) {
+    $userRow = mysqli_fetch_assoc($userResult);
+
+    ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,33 +60,31 @@ include_once 'includes/dbh.inc.php'
         <div class="row my-4 shopHeader">
           <div class="col-md-6 shopProfile-1 text-center">
             <div class="profileInfo">
+
               <img class="my-5" src="img/book6.jpg" alt="" />
-              <h2 class="text-light mb-5">Sheba Publishers</h2>
+              <h2 class="text-light mb-5">Sheba Publisher</h2>
             </div>
+
           </div>
+
           <div class="col-md-6 shopProfile-2  text-light">
-            <h4 class=" mt-5 mb-4 text-center">Owner: Md. Abu Nasib</h4>
+            <h4 class=" mt-5 mb-4 text-center">Owner: <?php echo $userRow['full_name'] ?></h4>
             <div class="profileInfo-2 text-center">
-              <p class="lead">Email: something@example.com</p>
-              <p class="lead">Phone Number: 0195555555</p>
-              <p class="lead">Shop Address: Uttara Sector #13</p>
-              <p class="lead">Employee: 10</p>
-              <p class="lead">Number of Books: 300</p>
+              <p class="lead">Email: <?php echo $userRow['user_email'] ?></p>
+              <p class="lead">Phone Number: <?php echo $userRow['user_phone'] ?></p>
+              <p class="lead">Shop Address: <?php echo $userRow['shop_address'] ?></p>
+
+
             </div>
-            <button class="btn btn-danger text-right  mt-3 mb-4 ">
-              Edit
-            </button>
+            <?php } ?>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <?php
-  $sql = "SELECT * FROM bookinfo";
-  $result = mysqli_query($conn, $sql);
-  $resultCheck = mysqli_num_rows($result);
-  ?>
+
 
 
 
@@ -69,18 +92,18 @@ include_once 'includes/dbh.inc.php'
     <div class="container">
       <div class="row text-center">
         <?php
-        while ($row = mysqli_fetch_array($result)) {
-          ?>
+          while ($row2 = mysqli_fetch_array($result2)) {
+            ?>
         <div class="col-md-3">
           <div class="bf19book1">
             <div class="bf19-content">
-              <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row['id'] ?>" title="<?php echo $row['BookName'];  ?>">
-                <img src="<?php echo $row['BookImage'] ?>" alt="<?php echo $row['BookName'];  ?>" /></a>
-              <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row['id'] ?>" title="<?php echo $row['BookName'];  ?>">
-                <h5><?php echo $row['BookName']; ?></h5>
+              <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row2['id'] ?>" title="<?php echo $row2['BookName'];  ?>">
+                <img src="<?php echo $row2['BookImage'] ?>" alt="<?php echo $row2['BookName'];  ?>" /></a>
+              <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row2['id'] ?>" title="<?php echo $row['BookName'];  ?>">
+                <h5><?php echo $row2['BookName']; ?></h5>
               </a>
               <a href="">
-                <p class="lead"><?php echo $row['AuthorName'];  ?></p>
+                <p class="lead"><?php echo $row2['AuthorName'];  ?></p>
               </a>
             </div>
           </div>
@@ -88,7 +111,9 @@ include_once 'includes/dbh.inc.php'
         <?php } ?>
       </div>
     </div>
+    <?php } ?>
   </div>
 </body>
+
 
 </html>

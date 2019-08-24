@@ -2,4 +2,4 @@
 session_start();
 session_unset();
 session_destroy();
-header('Location:../index.php?logout=success');
+header('Location:../index1.php?logout=success');
