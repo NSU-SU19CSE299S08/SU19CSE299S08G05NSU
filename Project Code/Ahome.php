@@ -48,29 +48,12 @@ include_once 'includes/dbh.inc.php';
               </div>
             </nav>
 
-            <div class="logo"><a href="index1.html">BookFinder</a></div>
-      <div class="signin text-right">
-        <?php
-        if (isset($_SESSION['adminUserName'])) {
-          $user = $_SESSION['adminUserName'];
-          $query = "SELECT * FROM admins Where adminUserName= '$user';";
-
-          $result = mysqli_query($conn, $query);
-          $row = mysqli_fetch_array($result);
-          $userName = $row['adminUserName'];
-          echo $userName;
-
-          echo '<a href="#" class="btn btn-outline-danger">username</a>
-        <a href="includes/logout.inc.php" class="btn btn-outline-dark">Logout</a>';
-        } else {
-          echo ' <a href="login.php" class="btn btn-outline-dark "> Login</a>;
-        }
-
-
-        ?>
-
-      </div>
-    </div>
+            <script src="js/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'js/particles.json', function() {
+      console.log('particles.json loaded..');
+    });
+  </script>
 
      </body>
 
