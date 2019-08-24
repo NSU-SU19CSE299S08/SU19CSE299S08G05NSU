@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     // fetch data from client
 
     $search= mysqli_real_escape_string($conn, $_POST['search']);
-    $sql= "SELECT * FROM bookinfo WHERE BookName='$search' OR AuthorName='$search' OR PublisherName='$search' ";
+    $sql= "SELECT * FROM bookinfo WHERE BookName LIKE '%$search%' OR AuthorName LIKE '%$search%' OR PublisherName LIKE '%$search%' ";
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
     if($resultCheck > 0){
