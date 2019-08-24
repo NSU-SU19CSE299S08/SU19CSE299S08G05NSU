@@ -36,11 +36,11 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <input type="text" placeholder="Search Here.." />
-          <a href="#"
-            ><button type="button" name="button">
-              <i class="fas fa-search"></i></button
-          ></a>
+        <div class="loginForm">
+        <form action="includes/search.inc.php" method="POST" onsubmit="return regValidation();">
+          <input type="text" name= "search" placeholder="Search Here.." />
+            <!-- <button type="button" name="button" value="search">Search</button> -->
+            <input class="btn btn-outline-danger" type="submit" name="submit" value="search">
+          </form>
         </div>
       </div>
