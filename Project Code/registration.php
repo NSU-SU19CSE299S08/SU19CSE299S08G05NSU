@@ -32,6 +32,11 @@
           <input type="text" id="uemail" name="email" placeholder="Enter Your Email" />
           <label id="email__label1"></label>
         </div>
+        <div class="form-input3">
+          <input type="text" id="uemail" name="publisher" placeholder="Enter Publisher's Name" required />
+          <label id=""></label>
+
+        </div>
 
         <div class="form-input4">
           <input type="password" id="upass" name="pass" placeholder="Enter your Password" />
