@@ -47,8 +47,8 @@ $indexSqlData = mysqli_query($conn, $indexSql);
       <div class="logo"><a href="index1.html">BookFinder</a></div>
       <div class="signin text-right">
 
-        <a href="login.html" class="btn btn-outline-dark "> Login</a>
-        <a href="registration.html" class="btn btn-outline-dark"> Register</a>
+        <a href="login.php" class="btn btn-outline-dark "> Login</a>
+        <a href="registration.php" class="btn btn-outline-dark"> Register</a>
       </div>
     </div>
     <!-------logo area ends----->
