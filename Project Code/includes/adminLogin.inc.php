@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
 
     // check tht aid and password is empty or not.
     if(empty($aid) || empty($pass)){
-        header("Location:../adminlogin.php?login=error");
+        header("Location:../adminlogin.php?login=empty");
         exit();
     }else{
 
@@ -25,13 +25,13 @@ if(isset($_POST['submit'])){
 
         //check if user not exist 
         if($resultCheck <1){
-            header("Location:../adminlogin.php?login=error");
+            header("Location:../adminlogin.php?login=notFound");
 			exit();
         }else{
             if($row=mysqli_fetch_assoc($result)){
 
                 // check whether pass is wrong or not.
-                if($pass != $row['admin_pass']){
+                if($a_pass != $row['adminPass']){
                     header("Location:../adminlogin.php?login=wrong_password");
 					exit();
                 }else{
@@ -42,7 +42,7 @@ if(isset($_POST['submit'])){
                     $_SESSION['a_phone']=$row['adminPhone'];
 
                     //need to add the page path which will apear after successful login.
-                    header("Location:../adminlogin.php?login=success") 
+                    header("Location:../adminlogin.php?login=success") ;
                 }
             }
         }
@@ -50,6 +50,6 @@ if(isset($_POST['submit'])){
     }
 }else{
      // go back to the login page.
-     header("Location:../adminlogin.php?login=error");
+     header("Location:../adminlogin.php?login=error2");
      exit();
 }
