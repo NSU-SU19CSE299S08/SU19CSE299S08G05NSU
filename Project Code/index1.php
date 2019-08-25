@@ -6,6 +6,13 @@ include_once 'includes/dbh.inc.php';
 $indexSql = "SELECT * from bookinfo where PublisherName='Sheba Publisher' limit 0,2";
 $indexSqlData = mysqli_query($conn, $indexSql);
 
+$ananyaSql = "SELECT * from bookinfo where PublisherName='Anannya Publisher' limit 0,2";
+$ananyaSqlData = mysqli_query($conn, $ananyaSql);
+
+
+$agameeSql = "SELECT * from bookinfo where PublisherName='Agamee Prokashoni Publisher' limit 0,3";
+$agameeSqlData = mysqli_query($conn, $agameeSql);
+
 ?>
 
 
@@ -98,7 +105,7 @@ $indexSqlData = mysqli_query($conn, $indexSql);
     <!-- sheba prokashoni books starts -->
     <div class="sciencefiction">
       <div class="sfbooks-title">
-        <h3>সেবা প্রকাশনী এর বই সমূহ</h3>
+        <h3>Sheba Publisher's Books</h3>
         <a class="btn btn-outline-dark" href="ShopProfile.php?page=ShebaProkashoni">View All</a>
       </div>
       <div class="sfbooks-list owl-carousel">
@@ -116,6 +123,48 @@ $indexSqlData = mysqli_query($conn, $indexSql);
       </div>
     </div>
     <!-- sheba prokashoni books ends -->
+    <!-- Anannya Publisher books starts -->
+    <div class="sciencefiction">
+      <div class="sfbooks-title">
+        <h3>Ananya Publisher's Books</h3>
+        <a class="btn btn-outline-dark" href="ShopProfile.php?page=ShebaProkashoni">View All</a>
+      </div>
+      <div class="sfbooks-list owl-carousel">
+        <?php while ($row2 = mysqli_fetch_assoc($ananyaSqlData)) { ?>
+        <div class="sfbook1">
+          <div class="sfbook1-content">
+            <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row2['id'] ?>"><img src="<?php echo $row2['BookImage'] ?>" alt="<?php echo $row2['BookName'] ?>" />
+              <h4><?php echo $row2['BookName'] ?></h4>
+              <p><?php echo $row2['AuthorName'] ?></p>
+            </a>
+          </div>
+
+        </div>
+        <?php } ?>
+      </div>
+    </div>
+    <!-- Anannya Publisher books ends -->
+    <!-- Agamee Prokashoni Publisher books starts -->
+    <div class="sciencefiction">
+      <div class="sfbooks-title">
+        <h3>Agamee Prokashoni Publisher's Books</h3>
+        <a class="btn btn-outline-dark" href="ShopProfile.php?page=ShebaProkashoni">View All</a>
+      </div>
+      <div class="sfbooks-list owl-carousel">
+        <?php while ($row3 = mysqli_fetch_assoc($agameeSqlData)) { ?>
+        <div class="sfbook1">
+          <div class="sfbook1-content">
+            <a href="bookDetails.php?page=bookDetails&ID=<?php echo $row3['id'] ?>"><img src="<?php echo $row3['BookImage'] ?>" alt="<?php echo $row3['BookName'] ?>" />
+              <h4><?php echo $row3['BookName'] ?></h4>
+              <p><?php echo $row3['AuthorName'] ?></p>
+            </a>
+          </div>
+
+        </div>
+        <?php } ?>
+      </div>
+    </div>
+    <!-- Agamee Prokashoni Publisher books ends -->
 
 
   </div>
