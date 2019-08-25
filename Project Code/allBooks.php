@@ -28,7 +28,6 @@ $result = mysqli_query($conn, $sql);
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-
     <link rel="stylesheet" href="css/index1.css" />
 
     <!-- js files -->
