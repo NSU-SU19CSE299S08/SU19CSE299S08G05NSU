@@ -37,24 +37,16 @@ include_once 'includes/dbh.inc.php';
 <nav class="navbar navbar-dark bg-dark  navbar-expand-md">
 
                 <div class="container">
-                  <a class="navbar-brand active" href="index.php">Home</a>
+                  <a class="navbar-brand active" href="Ahome.php">Home</a>
                   <ul class="navbar-nav">
         
-                      <li class="nav-item"><a class="nav-link" href="#">View User</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Delete user</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Add user</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+                      <li class="nav-item"><a class="nav-link" href="viewUser.php">View User</a></li>
+                      <li class="nav-item"><a class="nav-link" href="update.php">Update user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="deleteUser.php">Delete user</a></li>
+                      <li class="nav-item"><a class="nav-link" href="Includes/logout.inc.php">Logout</a></li>
                   </ul>
               </div>
             </nav>
-
-            <script src="js/particles.min.js"></script>
-  <script>
-    particlesJS.load('particles-js', 'js/particles.json', function() {
-      console.log('particles.json loaded..');
-    });
-  </script>
-
      </body>
 
 </html>
