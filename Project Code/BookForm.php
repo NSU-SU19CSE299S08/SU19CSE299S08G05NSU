@@ -61,6 +61,8 @@ if (isset($_SESSION['user_id']) == true) {
 </head>
 
 <body>
+
+
   <div class="formArea">
     <form action="" method="POST" class="formSection" onsubmit="return bookEntryForm();" enctype="multipart/form-data">
       <h1 class="text-center mb-4">Book Information</h1>
