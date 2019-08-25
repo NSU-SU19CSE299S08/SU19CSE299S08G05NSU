@@ -192,3 +192,26 @@ So he visited my website to know about the book shop’s location to find that b
 - Insert/Update Information
 - List of all books
 - Shop Location
+
+<h3><b>3.2 Implemented Features: </b></h3>
+
+- Sign up
+- Sign In/out
+- Search
+- List of Publishers
+- Insert/Update Information
+- List of all books
+- Shop Location
+
+<br/>
+<br/>
+<br/>
+<br/>
+<small>6</small>
+<hr/>
+<br/>
+<br/>
+<br/>
+<h3><b>3.3 Proposed but Not Implemented Features: </b></h3>
+
+- Shop Location: We had proposed that we will implement a feature that will show the book shop location in the google map but could not complete this feature within this deadline.
