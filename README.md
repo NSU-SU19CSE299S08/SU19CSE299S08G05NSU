@@ -278,15 +278,13 @@ So he visited my website to know about the book shop’s location to find that b
 <h2><b>4. Technology : </b></h2>
 <h3><b>4.1 Front-End : </b></h3>
 
-- <b>HTML :</b> We have used this technology to create the structure of the website. We used its tags to let the browser know what actually we are trying to build.
+- <p align="justify"><b>HTML :</b> We have used this technology to create the structure of the website. We used its tags to let the browser know what actually we are trying to build.</p>
 
-- <b>Cascading Style Sheet (CSS) :</b> To design a particular website, CSS is important technology. We have used it to design our interactive website.
+- <p align="justify"><b>Cascading Style Sheet (CSS) :</b> To design a particular website, CSS is important technology. We have used it to design our interactive website.</p>
 
-- <b>Bootstrap (CSS Framework) :</b> We have used it in some webpages of this website. It is CSS Framework. It is lot easier than raw CSS. By only using its classes we designed our website.
-
-- <b>JavaScript :</b> We used this technology to validate our forms. For previewing image before uploading to the website, we have used this technology.
-
-- <b>JQuery :</b> It is JavaScript library which helps us to implement more feature with less code. We used it for some specific click events.
+- <p align="justify"><b>Bootstrap (CSS Framework) :</b> We have used it in some webpages of this website. It is CSS Framework. It is lot easier than raw CSS. By only using its classes we designed our website.</p>
+- <p align="justify"><b>JavaScript :</b> We used this technology to validate our forms. For previewing image before uploading to the website, we have used this technology.</p>
+- <p align="justify"><b>JQuery :</b> It is JavaScript library which helps us to implement more feature with less code. We used it for some specific click events.</p>
 
 <br/>
 <br/>
