@@ -1,3 +1,51 @@
+<?php
+include_once 'includes/dbh.inc.php';
+session_start();
+if (isset($_SESSION['user_id']) == true) {
+  $userID = $_SESSION['user_id'];
+
+  $query = "SELECT * from users WHERE user_id ='$userID'; ";
+  $result = mysqli_query($conn, $query);
+  $row = mysqli_fetch_array($result);
+  $id = $row['user_id'];
+
+
+  if (isset($_POST['submit'])) {
+
+
+
+
+    $bookName = mysqli_real_escape_string($conn, $_POST['bookName']);
+    $authorName = mysqli_real_escape_string($conn, $_POST['authorName']);
+    $publisherName = mysqli_real_escape_string($conn, $_POST['publisherName']);
+    $isbnNumber = mysqli_real_escape_string($conn, $_POST['isbnNumber']);
+    $bookPrice = mysqli_real_escape_string($conn, $_POST['bookPrice']);
+    $bookLanguage = mysqli_real_escape_string($conn, $_POST['bookLanguage']);
+
+
+    $bookImage = $_FILES['image']['name'];
+    $bookImageTmpName = $_FILES['image']['tmp_name'];
+    $folder = "uploads/" . $bookImage;
+    move_uploaded_file($bookImageTmpName, $folder);
+
+
+
+
+    $sql = "INSERT INTO bookinfo (BookName,AuthorName,PublisherName,ISBN,BookPrice,BookLanguage,BookImage,userID) VALUES ('$bookName','$authorName','$publisherName','$isbnNumber','$bookPrice','$bookLanguage','$folder','$id');";
+
+    $data = mysqli_query($conn, $sql);
+
+    if ($data) {
+      header("Location: BookForm.php?BookInfo=inserted");
+      exit();
+    } else {
+      header("Location: BookForm.php?BookInfo=Notinserted");
+      exit();
+    }
+  }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +62,7 @@
 
 <body>
   <div class="formArea">
-    <form action="bookInfo.php" method="POST" class="formSection" onsubmit="return bookEntryForm();" enctype="multipart/form-data">
+    <form action="" method="POST" class="formSection" onsubmit="return bookEntryForm();" enctype="multipart/form-data">
       <h1 class="text-center mb-4">Book Information</h1>
       <div class="row">
         <div class="form__right col-md-6">
@@ -50,7 +98,7 @@
           <div class="form-group">
             <input type="file" class="form-control-file" id="fileUpload" name="image" onchange="readURL(this);" />
           </div>
-          
+
           <div class="imagePreview">
             <img src="" alt="" id="img" />
           </div>

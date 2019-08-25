@@ -61,15 +61,12 @@ $result = mysqli_query($conn,$query);
                 <?php
         while ($row=mysqli_fetch_array($result)) {
 
-          echo "<tr><form action='includes/update.inc.php' method=POST>";
           echo "<td><input type=text name=id value='".$row['user_id']."'</td>";
           echo "<td><input type=text name=Name value='".$row['full_name']."'</td>";
           echo "<td><input type=text name=uid value='".$row['user_uid']."'</td>";
           echo "<td><input type=text name=email value='".$row['user_email']."'</td>";
           echo "<td><input type=text name=phone value='".$row['user_phone']."'</td>";
-     
-     echo "<td><input type=submit value=update>";
-     echo"</form></tr>";
+          echo"</form></tr>";
         }
 
 
