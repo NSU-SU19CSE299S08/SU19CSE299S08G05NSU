@@ -64,6 +64,13 @@ include_once 'includes/dbh.inc.php';
 if (isset($_SESSION['user_id']) == true) {
 
 
+  $userID = $_SESSION['user_id'];
+
+  $userQuery = "SELECT * FROM users WHERE user_id = '$userID'";
+  if ($userResult = mysqli_query($conn, $userQuery)) {
+    $userRow = mysqli_fetch_assoc($userResult);
+      }
+    }
 
 
         ?>
