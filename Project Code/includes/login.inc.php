@@ -53,6 +53,3 @@ if (isset($_POST['submit'])) {
     header("Location:../login.php?login=error2");
     exit();
 }
-
-?>
-
