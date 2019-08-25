@@ -152,3 +152,43 @@ This book management system is mainly use by bookshop owner and the app’s admi
 - To record every book shop’s information that resides in this country.
 - To give reliable search facility for the users.
 - To design a user friendly graphical user interface which suit the user.
+  <br/>
+  <br/>
+  <h2><b>2.User Story </b></h2>
+
+<h3><b>2.1 Use Case Scenario 1: </b></h3>
+
+<p align="justify">Mrs. Shahida Sultana is a housewife. She loves to read books in her leisure time. And she reads a lots of book. She has a lot of books in her collection. Now she wants to include some more books in her collection.
+
+So she has to visit my website to know about new books that has been published recently.
+
+   </p>
+<h3><b>2.1 Use Case Scenario 2: </b></h3>
+
+<p align="justify">Mr. Nahid is searching for a very rare book. He has visited a lots of shops but does not know where he can find this particular book.
+
+So he visited my website to know about the book shop’s location to find that book.
+
+   </p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<small>5</small>
+<hr/>
+<br/>
+<br/>
+<br/>
+
+<h2><b>3. Features: </b></h2>
+
+<h3><b>3.1 Proposed Features: </b></h3>
+
+- Sign up
+- Sign In/out
+- Search
+- List of Publishers
+- Insert/Update Information
+- List of all books
+- Shop Location
