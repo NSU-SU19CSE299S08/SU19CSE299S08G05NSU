@@ -47,6 +47,7 @@
 <br/>
 <br/>
 
+
 <br/>
 <br/>
 <br/>
@@ -119,3 +120,4 @@ This book management system is mainly use by bookshop owner and the app’s admi
 
 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Introduction:</h3>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this generation, everyone is being dependable on computer through software and web apps.  That’s why we created a Web Application for managing all the books and bookshop information in this country. By using this web app, user will be able to find information about any book and book shops in this country. Mainly, this application is managed by the site’s admin. </p>
+

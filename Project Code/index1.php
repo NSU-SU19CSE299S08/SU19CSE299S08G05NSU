@@ -65,7 +65,8 @@ $indexSqlData = mysqli_query($conn, $indexSql);
 
 
           echo '<a href="ShopProfile.php" class="btn btn-outline-danger">' . $userName . '</a>
-        <a href="includes/logout.inc.php" class="btn btn-outline-dark">Logout</a>';
+                  <a href="BookForm.php" class="btn btn-outline-dark">Add Book</a>
+                 <a href="includes/logout.inc.php" class="btn btn-outline-dark">Logout</a>';
         } else {
           echo ' <a href="login.php" class="btn btn-outline-dark "> Login</a>
         <a href="registration.php" class="btn btn-outline-dark"> Register</a>';
