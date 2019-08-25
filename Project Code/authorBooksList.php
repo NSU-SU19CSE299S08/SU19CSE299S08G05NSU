@@ -1,7 +1,7 @@
 <?php 
 include_once 'includes/dbh.inc.php';
 
-$sql = "SELECT * from bookinfo where ID =".$_GET['ID'];
+$sql = "SELECT * from bookinfo where id =".$_GET['id'];
 
 
 $result = mysqli_query($conn,$sql);

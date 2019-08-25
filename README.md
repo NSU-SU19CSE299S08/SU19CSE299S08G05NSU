@@ -110,7 +110,7 @@ This book management system is mainly use by bookshop owner and the app’s admi
 <br/>
 <br/>
 <br/>
-<small>3</small>
+<small>4</small>
 <hr/>
 <br/>
 <br/>
@@ -137,7 +137,7 @@ This book management system is mainly use by bookshop owner and the app’s admi
 <br/>
 <br/>
 <br/>
-<small>4</small>
+<small>5</small>
 <hr/>
 <br/>
 <br/>
@@ -175,7 +175,7 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>5</small>
+<small>6</small>
 <hr/>
 <br/>
 <br/>
@@ -207,7 +207,12 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>6</small>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<small>7</small>
 <hr/>
 <br/>
 <br/>
@@ -215,3 +220,140 @@ So he visited my website to know about the book shop’s location to find that b
 <h3><b>3.3 Proposed but Not Implemented Features: </b></h3>
 
 - Shop Location: We had proposed that we will implement a feature that will show the book shop location in the google map but could not complete this feature within this deadline.
+  <br/>
+  <br/>
+  <br/>
+
+  <h2><b>4. Technology : </b></h2>
+  <h3><b>4.1 Front-End : </b></h3>
+
+- <b>HTML :</b> We have used this technology to create the structure of the website. We used its tags to let the browser know what actually we are trying to build.
+
+- <b>Cascading Style Sheet (CSS) :</b> To design a particular website, CSS is important technology. We have used it to design our interactive website.
+
+- <b>Bootstrap (CSS Framework) :</b> We have used it in some webpages of this website. It is CSS Framework. It is lot easier than raw CSS. By only using its classes we designed our website.
+
+- <b>JavaScript :</b> We used this technology to validate our forms. For previewing image before uploading to the website, we have used this technology.
+
+- <b>JQuery :</b> It is JavaScript library which helps us to implement more feature with less code. We used it for some specific click events.
+
+<br/>
+<br/>
+<br/>
+<br/>
+<small>8</small>
+<hr/>
+<br/>
+<br/>
+<br/>
+
+<h3><b>4.2 Back-End : </b></h3>
+<p align="justify">To store data into the database, we used two technologies. They are-
+
+   </p>
+
+- PHP: It is an OOP language. It works in our website as middle man. It fetches data from the database to show in the website.
+
+- MySQL: MySQL is a popular database software for local development. That’s why we included as one of technology for our website.
+
+<br/>
+<br/>
+<br/>
+ <h2><b>5. Work Progress Phase : </b></h2>
+  <h3><b>5.1 Week - 01 : </b></h3>
+<p align="justify">In the first week of this project, we took instruction from our respected faculty member to form group and collect some ideas about the project we are going to do in this semester.</p>
+
+  <h3><b>5.2 Week - 02 : </b></h3>
+<p align="justify">In this week, we presented our ideas to our teacher. We have presented multiple ideas in front of our teacher and he choose one project for us. We were also instructed to make a project proposal for our project and to create folder structure in the GitHub repository.</p>
+
+  <h3><b>5.3 Week - 03 : </b></h3>
+<p align="justify">We made our project proposal and gave it our teacher. Initially, the project proposal was rejected for alignment issue. We also did not create the folder structure for the project. So we got a new deadline for the project proposal to submit with some penalty.</p>
+
+  <h3><b>5.4 Week - 04 : </b></h3>
+<p align="justify">In this week, we had submitted our project proposal and sir accepted it. During this week, we have work on two issues.  We worked on our database connection and created menu bar for the User Interface.</p>
+
+  <h3><b>5.5 Week - 05 : </b></h3>
+<p align="justify">During this time, we have worked on sign up integration with PHP. By signing up in this website, user will have best experience of this website. We also worked on our form validation. We used vanilla.js for validating our form. Created two UI page for the website.</p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<small>9</small>
+<hr/>
+<br/>
+<br/>
+<br/>
+
+  <h3><b>5.6 Week - 06 : </b></h3>
+<p align="justify">In this work phase we extended our week 05 issues to solve some bugs. There was a bug issue in the form. It was not sending value without validating any input fields. So we fixed this issue in this week. We also worked on the Sign up integration issue to solve some bugs.</p>
+
+  <h3><b>5.7 Week - 07 : </b></h3>
+<p align="justify">We worked on feature called book entry form. This feature is only available for book shop’s owner. Using this feature, the book shop owner will be able to add new books to his shop’s profile.</p>
+
+  <h3><b>5.8 Week - 08 : </b></h3>
+<p align="justify">After working on the sign up feature we started to work on the sign in feature. By using this feature, user will be able to login to the website to see how many books the owner have. Another feature we have worked on is Shop Registration Form.  </p>
+
+  <h3><b>5.9 Week - 09 : </b></h3>
+<p align="justify">Two most important feature in this website is inserting book and creating a profile for the shops. So we have worked on this two feature in this week. We created one page to insert book information into the database. And created another page to show these books information user wise.</p>
+
+  <h3><b>5.10 Week - 10 : </b></h3>
+<p align="justify">Searching a particular books in the website is one of important feature. So, we started working on search feature from this week but could not complete the search due to some problem. So we extended this feature due time to Week 13.  We also worked on an admin feature called view user. In this feature, admin will be able to see all user that have account in this website.</p>
+
+  <h3><b>5.11 Week - 11 : </b></h3>
+<p align="justify">Admin can handle everything in a website like-editing any information of user or deleting any user from the website database. So, this week we worked on data update feature for admin. Using this feature, admin is able to edit information about any users. To do this kind of task, admin must login first. So, we added feature admin login. By which, an admin can login to modify data in the website.  As our UI work was almost done by this week, we had started to fetch data from the database to make it visible in the website.</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<small>10</small>
+<hr/>
+<br/>
+<br/>
+<br/>
+  <h3><b>5.12 Week - 12 : </b></h3>
+<p align="justify">We worked on another admin feature called view user. After logging in, admin will have an option to see all the users in a single table. We tried to scrape data from a website to show it to our website but we could not manage time for that.</p>
+
+  <h3><b>5.13 Week - 13 : </b></h3>
+<p align="justify">After logging in, the admin will redirect to a dashboard. We have worked on this feature during this whole week. We also worked on admin feature called Delete User. For managing users in the database, admin will be able to delete user if the admin wants.</p>
+
+  <h3><b>5.14 Week - 14 : </b></h3>
+<p align="justify">We have completed all the project work by this week. We worked on our project report to explain what we did during this semester. We closed every issue that has been created in the GitHub repository. We completed every project card and moved them to the “Done” board. </p>
+<br/>
+<br/>
+<h2><b>6. Development Environment : </b></h2>
+  <h3><b>6.1 Software : </b></h3>
+
+  <p align="justify"><b>Operating System : </b> Windows 10 Education</p>
+
+  <p align="justify">I choose Windows 10 as my developing operating system because it is more stable than Windows 8 and 8.1.  Windows 10 has lot of feature than any other operating system. It supports a lot of new software that helped me to improve my development.</p>
+
+  <p align="justify"><b>Development Tools : </b> Microsoft VS Code 2019</p>
+
+  <p align="justify">Microsoft VS Code 2019 is free software for web development. This development tool is more flexible than any other IDE I have used. It has a lots of extension that helped me to write code faster. </p>
+
+  <p align="justify"><b>Database : </b> MySQL Server</p>
+
+  <p align="justify">XAMPP is a popular software for local development. It is free of cost and easy to use. So I decided to use it as my database software. </p>
+<br/>
+<br/>
+<br/>
+<br/>
+<small align="right"><p>11</p></small>
+<hr/>
+<br/>
+<br/>
+<br/>
+  <p align="justify"><b>Version Control : </b> GitHub</p>
+
+  <p align="justify">We used GitHub as version. Because it is easier than other version control and it also provide free private repository.  </p>
+
+  <h3><b>6.2 Hardware : </b></h3>
+
+<p align="justify"><b>Processor : </b> Intel i5 8th Gen 2.8 Ghz.</p>
+
+  <p align="justify">Intel provide the better processing capabilities and better cooling technology to our CPU.  With an Intel processor, we can run as many software as we want at the same time.   </p>
+
+<p align="justify"><b>Ram : </b> 16GB </p>
+
+  <p align="justify">During the development of the application, we had to run many software at the same time. For having a smooth experience with these development software we used 16 GB ram. </p>
