@@ -74,6 +74,8 @@ if (isset($_SESSION['user_id']) == true) {
               <p class="lead">Phone Number: <?php echo $userRow['user_phone'] ?></p>
               <p class="lead">Shop Address: <?php echo $userRow['shop_address'] ?></p>
 
+              <a href="editUser.php" class="btn btn-danger">Edit</a>
+
 
             </div>
             <?php } ?>
