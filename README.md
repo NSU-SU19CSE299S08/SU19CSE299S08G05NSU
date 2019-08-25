@@ -357,3 +357,62 @@ So he visited my website to know about the book shop’s location to find that b
 <p align="justify"><b>Ram : </b> 16GB </p>
 
   <p align="justify">During the development of the application, we had to run many software at the same time. For having a smooth experience with these development software we used 16 GB ram. </p>
+
+<br/>
+<br/>
+<h2><b>7. Installation : </b></h2>
+  <h3><b>7.1 Technology Installation : </b></h3>
+
+- <p align="justify">HTML : Developer do not need to install html. It is already integrated in almost every browser. Developer must know the tags to use this markup language.</p>
+- <p align="justify">CSS: CSS can be install in website in many ways. The best way is to create an external css file with .css extension and link this file to the html file. The structure to add css file in the HTML page is -
+    <link type=”text/css” rel=”stylesheet” href=”css/style.css”?/></p>
+
+- <p align="justify">Bootstrap: We can install bootstrap by using CDN and the other way is to add the hard coded css into our website like a css file.
+- JavaScript and JQuery: Developer can write JavaScript by using an external file like css or the developer can install it by writing code in the html page by using script tag.</p>
+- <p align="justify">PHP: Developer must install PHP in the local machine to work with this tech. PHP has their own website where developer can find the .zip PHP files to install it in the local machine.</p>
+
+  Link: https://bit.ly/325hZd0
+
+  <p align="justify">Here is link for installing PHP in the local machine. This link contains the source file of PHP and a tutorial to install it properly.</p>
+
+- <p align="justify">MySQL: By using the XAMPP software, developer can install MySQL in the local machine. If any developer wants to work with PHP, s/he must have this software install in the local machine.</p>
+
+  Software Link: https://bit.ly/1mrZjYc
+
+  Tutorial Link: https://bit.ly/2UbrkgF
+
+    <br/>
+  <br/>
+  <br/>
+  <br/>
+  <small align="right"><p>12</p></small>
+  <hr/>
+  <br/>
+  <br/>
+  <br/>
+
+<h3><b>7.2 Project Installation : </b></h3>
+
+<p align='justify'>To install our project in a local machine, you must have the Xampp software install in your local machine. By using this software, you have to install database in your local machine. Then download the zip folder from the GitHub repository. The database you will find it in the project folder. Then unzip the folder and make sure you keep everything as it is. Do not change any directory otherwise it will show error. After installing the xampp software you must turn on the apache server and MySQL server. After turning on the servers, go to browser and type</p>
+
+http://localhost/phpmyadmin
+
+ <p align='justify'>This will take you to the database. You will find an option called import. Using this function, you will be import the database that is in the project code folder. After importing the database, take the project folder in this directory- C:\xampp\htdocs and upload it in the htdocs folder. Then go to the browser and type </p>
+
+http://localhost/htdocts/project-name
+
+   <p align='justify'>If you have done everything correctly, the project will run automatically.
+Here is link to run project from htdocs:</p>
+
+https://bit.ly/325MhfF
+
+ <br/>
+  <br/>
+  <br/>
+  <br/>
+  <small align="right"><p>13</p></small>
+  <hr/>
+  <br/>
+  <br/>
+  <br/>
+  <h2><b>8. Project Screenshots: </b></h2>
