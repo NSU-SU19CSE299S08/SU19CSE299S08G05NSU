@@ -105,7 +105,7 @@ if (isset($_SESSION['user_id']) == true) {
             <div class="profileInfo">
 
               <img class="my-5" src="img/book6.jpg" alt="" />
-              <h2 class="text-light mb-5">Sheba Publisher</h2>
+              <h2 class="text-light mb-5"><?php echo $userRow['publisher_name'] ?></h2>
             </div>
 
           </div>

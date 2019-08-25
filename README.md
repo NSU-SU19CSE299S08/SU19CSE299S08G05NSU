@@ -38,7 +38,7 @@
 <br/>
 <br/>
 <p align='center'><b>Date Prepared:</b></p>
-<p align='center'>15-June-2019</p>
+<p align='center'>26-August-2019</p>
 <br/>
 <br/>
 <br/>
@@ -77,7 +77,7 @@
 <br/>
 <br/>
 <br/>
-<small>2</small>
+<small align="right"><p>2</p></small>
 <hr/>
 <br/>
 <br/>
@@ -110,19 +110,70 @@ This book management system is mainly use by bookshop owner and the app’s admi
 <br/>
 <br/>
 <br/>
-<small>4</small>
+<small align="right"><p>3</p></small>
+<hr/>
+<br/>
+<br/>
+<br/>
+<h1 align="center">Table of Contents</h1>
+<p align="justify"> Acknowledgement----------------------------------------------------------------------------------2</p>
+<p align="justify"> Abstract---------------------------------------------------------------------------------------------3</p>
+<p align="justify"> Table of Contents-----------------------------------------------------------------------------------4</p>
+ <p align="justify">1. Introduction-----------------------------------------------------------------------------------------5-6</p>
+ <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Introduction-------------------------------------------------------------------------------- 5</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Project Motivation------------------------------------------------------------------------- 5</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Projects Aims and Objectives --------------------------------------------------------------6</p>
+ <p align="justify">2. User Story--------------------------------------------------------------------------------------------6</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Use Case Scenario 1 ------------------------------------------------------------------------6</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 Use Case Scenario 2 ------------------------------------------------------------------------6</p>
+ <p align="justify">3. Features----------------------------------------------------------------------------------------------7-8</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 Proposed Features--------------------------------------------------------------------------7</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 Implemented Features----------------------------------------------------------------------7</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3 Proposed but Not Implemented Features:-------------------------------------------------8</p>
+ <p align="justify">4. Technology-------------------------------------------------------------------------------------------8-9</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1 Front-End------------------------------------------------------------------------------------8</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1 Back-End-------------------------------------------------------------------------------------9</p>
+ <p align="justify">5. Work Progress Phase---------------------------------------------------------------------------------9-11</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1 Week: 01 -------------------------------------------------------------------------------------9</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2 Week: 02 -------------------------------------------------------------------------------------9</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3 Week: 03 -------------------------------------------------------------------------------------9</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.4 Week: 04 -------------------------------------------------------------------------------------9</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.5 Week: 05 -------------------------------------------------------------------------------------9</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.6 Week: 06 -------------------------------------------------------------------------------------10</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.7 Week: 07--------------------------------------------------------------------------------------10</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.8 Week: 08 --------------------------------------------------------------------------------------10</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.9 Week: 09 --------------------------------------------------------------------------------------10</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.10 Week: 10 -------------------------------------------------------------------------------------10</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.11 Week: 11 -------------------------------------------------------------------------------------10</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.12 Week: 12--------------------------------------------------------------------------------------11</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.13 Week: 13 --------------------------------------------------------------------------------------11</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.14 Week: 14 --------------------------------------------------------------------------------------11</p>
+ <p align="justify">6. Development Environment -----------------------------------------------------------------------------11-12</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1 Software -----------------------------------------------------------------------------------------11</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2 Hardware ----------------------------------------------------------------------------------------12</p>
+ <p align="justify">7. Installation  -----------------------------------------------------------------------------------------------12-13</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.1  Technology Installation --------------------------------------------------------------------------12</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.2  Project Installation -------------------------------------------------------------------------------13</p>
+ <p align="justify">8. Project Screenshots --------------------------------------------------------------------------------------14-15</p>
+ <p align="justify">9. References ----------------------------------------------------------------------------------------------16</p>
+ 
+    
+<br/>
+<br/>
+<br/>
+<small align="right"><p>4</p></small>
 <hr/>
 <br/>
 <br/>
 <br/>
 
-<h2>1. Introduction: </h2>
+<h2><b>1. Introduction: </b></h2>
 
-<h3>1.1 Introduction:</h3>
+<h3><b>1.1 Introduction:</b></h3>
 <p align="justify">In this generation, everyone is being dependable on computer through software and web apps.  That’s why we created a Web Application for managing all the books and bookshop information in this country. By using this web app, user will be able to find information about any book and book shops in this country. Mainly, this application is managed by the site’s admin. </p>
 <br/>
 
-<h3>1.2  	Project Motivation: </h3>
+<h3><b>1.2  	Project Motivation: </b> </h3>
 <p align="justify">We have a lots of book shops in this country. In this country, there are no organization that has all the information about all the book shop. To make it easier to the people of this country, it a small effort to gather all the book shops information into one website.  So that, every people in this country, can find the nearest bookshop location in this website. </p>
 
 <br/>
@@ -137,7 +188,7 @@ This book management system is mainly use by bookshop owner and the app’s admi
 <br/>
 <br/>
 <br/>
-<small>5</small>
+<small align="right"><p>5</p></small>
 <hr/>
 <br/>
 <br/>
@@ -154,7 +205,8 @@ This book management system is mainly use by bookshop owner and the app’s admi
 - To design a user friendly graphical user interface which suit the user.
   <br/>
   <br/>
-  <h2><b>2.User Story </b></h2>
+
+<h2><b>2.User Story </b></h2>
 
 <h3><b>2.1 Use Case Scenario 1: </b></h3>
 
@@ -175,12 +227,11 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>6</small>
+<small align="right"><p>6</p></small>
 <hr/>
 <br/>
 <br/>
 <br/>
-
 <h2><b>3. Features: </b></h2>
 
 <h3><b>3.1 Proposed Features: </b></h3>
@@ -212,7 +263,7 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>7</small>
+<small align="right"><p>7</p></small>
 <hr/>
 <br/>
 <br/>
@@ -224,8 +275,8 @@ So he visited my website to know about the book shop’s location to find that b
   <br/>
   <br/>
 
-  <h2><b>4. Technology : </b></h2>
-  <h3><b>4.1 Front-End : </b></h3>
+<h2><b>4. Technology : </b></h2>
+<h3><b>4.1 Front-End : </b></h3>
 
 - <b>HTML :</b> We have used this technology to create the structure of the website. We used its tags to let the browser know what actually we are trying to build.
 
@@ -241,7 +292,7 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>8</small>
+<small align="right"><p>8</p></small>
 <hr/>
 <br/>
 <br/>
@@ -279,7 +330,7 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>9</small>
+<small align="right"><p>9</p></small>
 <hr/>
 <br/>
 <br/>
@@ -306,7 +357,7 @@ So he visited my website to know about the book shop’s location to find that b
 <br/>
 <br/>
 <br/>
-<small>10</small>
+<small align="right"><p>10</p></small>
 <hr/>
 <br/>
 <br/>
@@ -416,3 +467,55 @@ https://bit.ly/325MhfF
   <br/>
   <br/>
   <h2><b>8. Project Screenshots: </b></h2>
+
+<b>Login: </b>
+
+  <p align="center"><img src='https://i.imgur.com/unFKHz6.png' /></p>
+  <b>Registration: </b>
+
+  <p align="center"><img src='https://i.imgur.com/wqUfsRR.png' /></p>
+<br/>
+  <br/>
+  <br/>
+  <br/>
+  <small align="right"><p>14</p></small>
+  <hr/>
+  <br/>
+  <br/>
+  <br/>
+<b>Home Page: </b>
+
+  <p align="center"><img src='https://i.imgur.com/vBzZZ0L.png' /></p>
+<b>Book List: </b>
+
+  <p align="center"><img src='https://i.imgur.com/nJHIkNG.png' /></p>
+  <br/>
+  <br/>
+  <br/>
+  <small align="right"><p>15</p></small>
+  <hr/>
+  <br/>
+  <br/>
+  <br/>
+<h2><b>9 . References : </b></h2>
+
+<p align='justify'>
+[1] Youtube.com, mmtuts, 
+How To Create A Complete Login System In PHP, 2019, Available: https://www.youtube.com/watch?v=xb8aad4MRx8&t=3684s, [Accessed: 23- Jun- 2019]
+</p>
+<p align='justify'>
+[2] Youtube.com, mmtuts, 
+How To Fetch data from database, 2019, Available: https://www.youtube.com/watch?v=0YLJ0uO6n8I, [Accessed: 24- Jun- 2019]
+</p>
+<p align='justify'>
+[3] stackoverflow.com, unknown, 
+What is wrong with this code that uses the mysql extension to fetch data from a database in PHP?, 2019, Available: https://stackoverflow.com/questions/14827380/what-is-wrong-with-this-code-that-uses-the-mysql-extension-to-fetch-data-from-a, [Accessed: 5- July- 2019]
+</p>
+<br/>
+  <br/>
+  <br/>
+  <small align="right"><p>16</p></small>
+  <hr/>
+  <br/>
+  <br/>
+  <br/>

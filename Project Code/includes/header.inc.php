@@ -14,7 +14,7 @@
       </li>
 
       <li>
-        <a href="javascript:void(0)">Publishers</a>
+        <a href="publisherList.php">Publishers</a>
         <!-- <ul>
           <li><a href="#">বাংলাপ্রকাশ</a></li>
           <li><a href="#">রাকিউট টেক পাবলিশিং</a></li>
@@ -28,7 +28,7 @@
   </nav>
 
   <div class="loginForm">
-    <form action="includes/search.inc.php" method="POST" onsubmit="return regValidation();">
+    <form action="search.inc.php" method="POST" onsubmit="return regValidation();">
       <input type="text" class="search" name="search" placeholder="Search Here.." />
       <!-- <button type="button" name="button" value="search">Search</button> -->
       <input class="btn btn-outline-danger" type="submit" name="submit" value="search">

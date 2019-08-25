@@ -41,6 +41,7 @@ if (isset($_POST['submit'])) {
                     $_SESSION['user_uid'] = $row['user_uid'];
                     $_SESSION['user_email'] = $row['user_email'];
                     $_SESSION['user_phone'] = $row['user_phone'];
+                    $_SESSION['shop_addrss'] = $row['shop_address'];
 
                     //need to add the page path which will apear after successful login.
                     header("Location:../index1.php?login=success");
