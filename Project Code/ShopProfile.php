@@ -54,6 +54,49 @@ if (isset($_SESSION['user_id']) == true) {
 
 <body>
 
+<header class="header-area">
+    <!---header area starts----->
+    <div class="logo-bar">
+      <!---logo area starts----->
+
+
+      <div class="logo"><a href="index1.html">BookFinder</a></div>
+      <div class="signin text-right">
+
+
+        <?php
+        if (isset($_SESSION['user_uid'])) {
+
+          $user = $_SESSION['user_uid'];
+          $query = "SELECT * FROM users Where user_uid = '$user';";
+
+
+          $result = mysqli_query($conn, $query);
+          $row = mysqli_fetch_array($result);
+          $userName = $row['user_uid'];
+
+
+
+          echo '<a href="ShopProfile.php" class="btn btn-outline-danger">' . $userName . '</a>
+                  <a href="BookForm.php" class="btn btn-outline-dark">Add Book</a>
+                 <a href="includes/logout.inc.php" class="btn btn-outline-dark">Logout</a>';
+        } else {
+          echo ' <a href="login.php" class="btn btn-outline-dark "> Login</a>
+        <a href="registration.php" class="btn btn-outline-dark"> Register</a>';
+        }
+
+
+        ?>
+
+      </div>
+    </div>
+    <!-------logo area ends----->
+    <?php
+    include('includes/header.inc.php');
+    ?>
+
+  </header>
+
   <div class="shopInfo">
     <div class="shopProfile">
       <div class="container">
@@ -74,7 +117,7 @@ if (isset($_SESSION['user_id']) == true) {
               <p class="lead">Phone Number: <?php echo $userRow['user_phone'] ?></p>
               <p class="lead">Shop Address: <?php echo $userRow['shop_address'] ?></p>
 
-              <a href="editUser.php" class="btn btn-danger">Edit</a>
+              <a href="editUser.php" class="btn btn-danger">. $userName .</a>
 
 
             </div>
