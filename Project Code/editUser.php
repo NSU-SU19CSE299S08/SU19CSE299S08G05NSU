@@ -69,6 +69,18 @@ if (isset($_SESSION['user_id']) == true) {
   $userQuery = "SELECT * FROM users WHERE user_id = '$userID'";
   if ($userResult = mysqli_query($conn, $userQuery)) {
     $userRow = mysqli_fetch_assoc($userResult);
+
+
+
+          echo "<tr><form action='includes/editUser.inc.php' method=POST>";
+          echo "<td><input type=text name=id value='".$userRow['user_id']."'</td>";
+          echo "<td><input type=text name=Name value='".$userRow['full_name']."'</td>";
+          echo "<td><input type=text name=uid value='".$userRow['user_uid']."'</td>";
+          echo "<td><input type=text name=email value='".$userRow['user_email']."'</td>";
+          echo "<td><input type=text name=phone value='".$userRow['user_phone']."'</td>";
+     
+     echo "<td><input type=submit value=update>";
+     echo"</form></tr>";
       }
     }
 
