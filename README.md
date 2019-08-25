@@ -114,8 +114,41 @@ This book management system is mainly use by bookshop owner and the app’s admi
 <hr/>
 <br/>
 <br/>
+<br/>
 
 <h2>1. Introduction: </h2>
 
-<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Introduction:</h3>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this generation, everyone is being dependable on computer through software and web apps.  That’s why we created a Web Application for managing all the books and bookshop information in this country. By using this web app, user will be able to find information about any book and book shops in this country. Mainly, this application is managed by the site’s admin. </p>
+<h3>1.1 Introduction:</h3>
+<p align="justify">In this generation, everyone is being dependable on computer through software and web apps.  That’s why we created a Web Application for managing all the books and bookshop information in this country. By using this web app, user will be able to find information about any book and book shops in this country. Mainly, this application is managed by the site’s admin. </p>
+<br/>
+
+<h3>1.2  	Project Motivation: </h3>
+<p align="justify">We have a lots of book shops in this country. In this country, there are no organization that has all the information about all the book shop. To make it easier to the people of this country, it a small effort to gather all the book shops information into one website.  So that, every people in this country, can find the nearest bookshop location in this website. </p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<small>4</small>
+<hr/>
+<br/>
+<br/>
+<br/>
+<h3><b>1.3 Projects Aims and Objectives: </b></h3>
+<p align="justify">The aim of this project is to develop a system that can handle and manage information of all the book shops in this country.   </p>
+
+<p align="justify">The projects objectives are:   </p>
+
+- To eliminate the hassle of finding a particular book shop.
+- To record every book information that has been published in this country.
+- To record every book shop’s information that resides in this country.
+- To give reliable search facility for the users.
+- To design a user friendly graphical user interface which suit the user.
