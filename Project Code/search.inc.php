@@ -77,10 +77,10 @@
     <?php
 
         } else {
-            header("Location:../index1.php?search=NoFound");
+            header("Location:index1.php?search=NoFound");
         }
     } else {
-        header("Location:../index1.php?search=error");
+        header("Location:index1.php?search=error");
         exit();
     }
     ?>

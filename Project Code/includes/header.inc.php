@@ -29,7 +29,7 @@
 
   <div class="loginForm">
     <form action="search.inc.php" method="POST" onsubmit="return regValidation();">
-      <input type="text" class="search" name="search" placeholder="Search Here.." />
+      <input type="text"  name="search" placeholder="Search Here.." />
       <!-- <button type="button" name="button" value="search">Search</button> -->
       <input class="btn btn-outline-danger" type="submit" name="submit" value="search">
     </form>

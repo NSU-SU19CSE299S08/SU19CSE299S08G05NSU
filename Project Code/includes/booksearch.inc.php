@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
 
     //check for empty string
     if(empty($search)){
-        header("Location:../index1.php?login=error");
+        header("Location:../index1.php?error");
         exit();
     }else{
 
@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
         $resultCheck=mysqli_num_rows($result);
 
         if($resultCheck<1){
-            header("Location:../index1.php?login=error");
+            header("Location:../index1.php?error");
             exit();
         }else{
             $rows=mysqli_fetch_assoc($result);
